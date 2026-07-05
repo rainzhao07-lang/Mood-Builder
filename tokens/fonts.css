@@ -1,0 +1,95 @@
+/* ============================================================
+   Mood Builder — Web fonts (self-hosted, local .woff2)
+   Display / headlines / buttons : Fraunces  (variable, normal + italic)
+   Italic serif captions & labels: Newsreader (text serif, fine italics)
+   UI / sans (status, controls)  : Hanken Grotesk
+   Alt sans / mono (available)   : Geist Sans, Geist Mono
+   ============================================================ */
+
+/* ---- Fraunces (variable: optical size + weight, normal + italic) ---- */
+@font-face {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("../assets/fonts/fraunces-variable-normal.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Fraunces";
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("../assets/fonts/fraunces-variable-italic.woff2") format("woff2");
+}
+
+/* ---- Newsreader (text serif — used italic for captions/labels) ---- */
+@font-face {
+  font-family: "Newsreader";
+  font-style: normal; font-weight: 400; font-display: swap;
+  src: url("../assets/fonts/newsreader-400.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Newsreader";
+  font-style: italic; font-weight: 400; font-display: swap;
+  src: url("../assets/fonts/newsreader-400-italic.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Newsreader";
+  font-style: normal; font-weight: 500; font-display: swap;
+  src: url("../assets/fonts/newsreader-500.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Newsreader";
+  font-style: normal; font-weight: 600; font-display: swap;
+  src: url("../assets/fonts/newsreader-600.woff2") format("woff2");
+}
+
+/* ---- Hanken Grotesk (UI sans) ---- */
+@font-face {
+  font-family: "Hanken Grotesk";
+  font-style: normal; font-weight: 400; font-display: swap;
+  src: url("../assets/fonts/hanken-grotesk-400.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Hanken Grotesk";
+  font-style: normal; font-weight: 500; font-display: swap;
+  src: url("../assets/fonts/hanken-grotesk-500.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Hanken Grotesk";
+  font-style: normal; font-weight: 600; font-display: swap;
+  src: url("../assets/fonts/hanken-grotesk-600.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Hanken Grotesk";
+  font-style: normal; font-weight: 700; font-display: swap;
+  src: url("../assets/fonts/hanken-grotesk-700.woff2") format("woff2");
+}
+
+/* ---- Geist Sans (available alternate sans) ---- */
+@font-face {
+  font-family: "Geist"; font-style: normal; font-weight: 400; font-display: swap;
+  src: url("../assets/fonts/geist-sans-400.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Geist"; font-style: normal; font-weight: 500; font-display: swap;
+  src: url("../assets/fonts/geist-sans-500.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Geist"; font-style: normal; font-weight: 600; font-display: swap;
+  src: url("../assets/fonts/geist-sans-600.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Geist"; font-style: normal; font-weight: 700; font-display: swap;
+  src: url("../assets/fonts/geist-sans-700.woff2") format("woff2");
+}
+
+/* ---- Geist Mono (available — data / metric numerics) ---- */
+@font-face {
+  font-family: "Geist Mono"; font-style: normal; font-weight: 400; font-display: swap;
+  src: url("../assets/fonts/geist-mono-400.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Geist Mono"; font-style: normal; font-weight: 500; font-display: swap;
+  src: url("../assets/fonts/geist-mono-500.woff2") format("woff2");
+}

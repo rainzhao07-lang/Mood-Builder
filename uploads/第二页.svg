@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1314.85 2710">
+  <defs>
+    
+    <clipPath id="clippath">
+      <rect class="cls-16" x="0" y="0" width="1314.85" height="2710"></rect>
+    </clipPath>
+  </defs>
+  <g id="_图层_1" data-name="图层 1">
+    <rect class="cls-15" x="50.32" y="45" width="1211" height="2616" rx="170.44" ry="170.44"></rect>
+    <rect class="cls-10" x="92.82" y="2318.5" width="1129" height="265" rx="132.5" ry="132.5"></rect>
+    <rect class="cls-20" x="97.32" y="305" width="1129" height="808" rx="81.85" ry="81.85"></rect>
+    <rect class="cls-17" x="93.32" y="1161" width="1129" height="1110" rx="81.85" ry="81.85"></rect>
+    <g id="IPHONE.psd">
+      <g class="cls-21">
+        <image id="_图层_1-2" data-name="图层 1" width="524" height="1080" transform="scale(2.51)"></image>
+      </g>
+    </g>
+    <g>
+      <polyline class="cls-11" points="1155.67 1066 147.32 1066 147.32 401.12"></polyline>
+      <path class="cls-13" d="M1167.74,1066c-5.68-2.11-12.73-5.7-17.09-9.51l3.44,9.51-3.44,9.51c4.37-3.81,11.42-7.4,17.09-9.51Z"></path>
+      <polygon class="cls-13" points="147.32 387 155.45 406.9 147.32 402.18 139.19 406.9 147.32 387"></polygon>
+    </g>
+    <rect class="cls-8" x="107.32" y="1447" width="1090" height="29" rx="14.5" ry="14.5"></rect>
+    <rect class="cls-7" x="107.32" y="1447" width="904" height="29" rx="14.5" ry="14.5"></rect>
+    <image width="1025" height="1537" transform="translate(220.78 1229.7) scale(.91)"></image>
+  </g>
+  <g id="_图层_2" data-name="图层 2">
+    <text class="cls-5" transform="translate(865.32 273.49)"><tspan x="0" y="0">Day 14 / </tspan><tspan class="cls-19" x="194.79" y="0">W</tspan><tspan x="239.23" y="0">eek 3</tspan></text>
+    <text class="cls-2" transform="translate(96.11 273.49)"><tspan x="0" y="0">PHASE</tspan></text>
+    <text class="cls-3" transform="translate(935.32 1099.88)"><tspan x="0" y="0">Pleasantness</tspan></text>
+    <text class="cls-3" transform="translate(114.32 368.88)"><tspan x="0" y="0">Energy</tspan></text>
+    <g class="cls-18">
+      <text class="cls-4" transform="translate(754.32 421.88)"><tspan x="0" y="0">Estimated from subjective </tspan><tspan x="0" y="43.2">and physiological input.</tspan></text>
+    </g>
+    <text class="cls-4" transform="translate(121.32 1288.88)"><tspan x="0" y="0">Spatial system evolving</tspan></text>
+    <text class="cls-4" transform="translate(846.32 1526.88)"><tspan x="0" y="0">Next stage in 3 days</tspan></text>
+    <text class="cls-4" transform="translate(547.32 2243.88)"><tspan x="0" y="0">Spatial configuration at current stage</tspan></text>
+    <text class="cls-4" transform="translate(317.32 2552.88)"><tspan x="0" y="0">Log emotional and physiological inputs</tspan></text>
+    <text class="cls-6" transform="translate(867.32 376.17)"><tspan x="0" y="0">Emotion State</tspan></text>
+    <text class="cls-5" transform="translate(896.32 1244.17)"><tspan x="0" y="0">Spatial State</tspan></text>
+    <text class="cls-1" transform="translate(118.32 1244.17)"><tspan x="0" y="0">Stage 2 / 5</tspan></text>
+    <circle class="cls-9" cx="439.32" cy="699" r="27"></circle>
+    <text class="cls-14" transform="translate(353.68 2493.58)"><tspan x="0" y="0">Record Today</tspan></text>
+    <circle class="cls-12" cx="439.32" cy="699" r="28"></circle>
+  </g>
+</svg>

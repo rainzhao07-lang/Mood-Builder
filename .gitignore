@@ -1,0 +1,17 @@
+# --- 依赖与构建产物(克隆后 npm ci / npm run build 可重建) ---
+webapp/node_modules/
+webapp/.next/
+webapp/out/
+webapp/tsconfig.tsbuildinfo
+webapp/artifacts/
+
+# --- 日志与本地杂项 ---
+*.log
+.thumbnail
+
+# --- 本地 agent 配置(含机器本地设置,不入库) ---
+.claude/
+
+# --- 已废弃的历史 review 副本 ---
+_review_claude_20260629_0512/
+_review_claude_fixed_20260629_1147/

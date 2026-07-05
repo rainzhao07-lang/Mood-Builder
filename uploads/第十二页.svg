@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1314.85 2710">
+  <defs>
+    
+    <clipPath id="clippath">
+      <rect class="cls-13" width="1314.85" height="2710"></rect>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-13" x="132.32" y="61" width="1106" height="1659"></rect>
+    </clipPath>
+  </defs>
+  <g id="_图层_1" data-name="图层 1">
+    <rect class="cls-11" x="50.32" y="45" width="1211" height="2616" rx="170.44" ry="170.44"></rect>
+    <g id="IPHONE.psd">
+      <g class="cls-19">
+        <image width="524" height="1080" transform="scale(2.51)"></image>
+      </g>
+    </g>
+    <rect class="cls-16" x="97.32" y="331" width="1129" height="1038" rx="81.85" ry="81.85"></rect>
+    <rect class="cls-1" x="98.32" y="1544" width="678" height="412" rx="81.85" ry="81.85"></rect>
+    <rect class="cls-4" x="92.82" y="2318.5" width="1129" height="265" rx="132.5" ry="132.5"></rect>
+    <text class="cls-15" transform="translate(295.37 2493.58)"><tspan x="0" y="0">Export Summary</tspan></text>
+    <rect class="cls-12" x="90.82" y="2109.5" width="1129" height="186" rx="93" ry="93"></rect>
+    <text class="cls-6" transform="translate(385.32 2226.34)"><tspan x="0" y="0">Save to</tspan><tspan class="cls-18" x="256.11" y="0"> </tspan><tspan x="273.45" y="0">Archive</tspan></text>
+    <rect class="cls-17" x="801.32" y="1544" width="425" height="412" rx="67.84" ry="67.84"></rect>
+    <g class="cls-14">
+      <image width="1024" height="1536" transform="translate(132.32 61) scale(1.08)"></image>
+    </g>
+  </g>
+  <g id="_图层_2" data-name="图层 2">
+    <text class="cls-9" transform="translate(470.42 279.36)"><tspan x="0" y="0">Snapshot Detail</tspan></text>
+    <text class="cls-10" transform="translate(1154.3 279.68)"><tspan x="0" y="0">⋯</tspan></text>
+    <text class="cls-8" transform="translate(107.31 280.61)"><tspan x="0" y="0">&lt; Back</tspan></text>
+    <text class="cls-9" transform="translate(127.31 404.61)"><tspan x="0" y="0">Selected Snapshot</tspan></text>
+    <text class="cls-8" transform="translate(130.31 1335.61)"><tspan x="0" y="0">Captured · Day 14 · 09:41</tspan></text>
+    <text class="cls-7" transform="translate(139.31 1661.32)"><tspan x="0" y="0">Lighting +8%</tspan></text>
+    <text class="cls-7" transform="translate(139.31 1707.32)"><tspan x="0" y="0">Softer contrast, fewer </tspan></text>
+    <text class="cls-7" transform="translate(145.31 1772.32)"><tspan x="0" y="0">Element Density </tspan></text>
+    <text class="cls-7" transform="translate(145.31 1818.32)"><tspan x="0" y="0">More vegetation + micro-structures</tspan></text>
+    <text class="cls-7" transform="translate(146.31 1888.32)"><tspan x="0" y="0">Layout More linear+12%</tspan></text>
+    <text class="cls-7" transform="translate(146.31 1934.32)"><tspan x="0" y="0">Fewer turns, clearer path</tspan></text>
+    <text class="cls-9" transform="translate(318.31 1426.61)"><tspan x="0" y="0">Drag to rotate · Pinch to zoom</tspan></text>
+    <text class="cls-9" transform="translate(139.31 1607.61)"><tspan x="0" y="0">What changed</tspan></text>
+    <text class="cls-3" transform="translate(939.3 1601.61)"><tspan x="0" y="0">Drivers</tspan></text>
+    <text class="cls-2" transform="translate(841.3 1660.32)"><tspan x="0" y="0">Objective input 55%</tspan></text>
+    <text class="cls-2" transform="translate(831.3 1712.32)"><tspan x="0" y="0">Subjective input 45%</tspan></text>
+    <text class="cls-5" transform="translate(841.3 1820.03)"><tspan x="0" y="0">HRV remained stable → calm </tspan><tspan x="0" y="28.8">weighting increased.</tspan></text>
+    <text class="cls-5" transform="translate(839.3 1898.03)"><tspan class="cls-18" x="0" y="0">Y</tspan><tspan x="15.12" y="0">our placement confirmed the </tspan><tspan x="0" y="28.8">emotion–space mapping.</tspan></text>
+    <text class="cls-8" transform="translate(938.31 1335.61)"><tspan x="0" y="0">Calm · 0.62</tspan></text>
+    <text class="cls-8" transform="translate(863.3 404.61)"><tspan x="0" y="0">Day 14 · 09:41</tspan></text>
+  </g>
+</svg>

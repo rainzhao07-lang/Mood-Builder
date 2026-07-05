@@ -1,0 +1,73 @@
+/* ============================================================
+   Mood Builder — Color tokens
+   A quiet, near-clinical healing palette: misty blue-grey-greens
+   on warm off-white paper, anchored by a deep slate interaction
+   color, with warm gold reserved for progress/stage emphasis.
+   ============================================================ */
+:root {
+  /* — Base ramp: slate (text / interaction) — */
+  --slate-900: #1c2629; /* deepest, immersive backdrops */
+  --slate-800: #242f32;
+  --slate-700: #2f3e42; /* PRIMARY interaction color — buttons, strong text */
+  --slate-500: #5e6d6f; /* secondary text */
+  --slate-400: #768383;
+  --slate-300: #9aa6a5;
+
+  /* — Sage / mist family (the brand's calm body color) — */
+  --sage-600: #74897f;
+  --sage-500: #8fa39a; /* core sage */
+  --sage-300: #aebfb7;
+  --mist-500: #9fb2b3; /* cooler mist grey-green */
+  --band-500: #aebfca; /* pale blue transition band */
+  --band-300: #c6d2da;
+
+  /* — Paper / surface neutrals — */
+  --paper-000: #ffffff;
+  --paper-100: #f4f5f2; /* the off-white "screen" */
+  --paper-200: #eef1ee;
+  --panel-300: #dde4e2; /* pale card panel */
+  --panel-400: #cdd8d5; /* deeper panel / track */
+  --panel-500: #d7dcd8; /* desk / app chrome */
+  --line-300: #c2cdca;  /* hairline */
+  --line-200: #d3dbd8;
+
+  /* — Warm gold: progress & stage accent ONLY — */
+  --gold-600: #a3854f;
+  --gold-500: #bb9a62; /* core gold */
+  --gold-300: #d4bd92;
+
+  /* — Quiet status hues (kept desaturated, near-clinical) — */
+  --signal-rest: #8fa39a; /* stable / good */
+  --signal-warn: #bb9a62; /* attention */
+  --signal-alert: #a3705f; /* gentle clay red — never alarming */
+
+  /* ===========================================================
+     Semantic aliases — prefer these in components & screens
+     =========================================================== */
+  --text-strong: var(--slate-700);
+  --text-body: var(--slate-500);
+  --text-muted: var(--slate-400);
+  --text-inverse: var(--paper-200);
+  --text-accent: var(--sage-500);
+
+  --surface-app: var(--panel-500);
+  --surface-screen: var(--paper-100);
+  --surface-card: var(--panel-300);
+  --surface-card-deep: var(--panel-400);
+  --surface-immersive: var(--slate-900);
+  --surface-raised: var(--paper-200);
+
+  --border-hairline: var(--line-300);
+  --border-soft: var(--line-200);
+
+  --interactive: var(--slate-700);
+  --interactive-hover: var(--slate-800);
+  --interactive-press: var(--slate-900);
+  --on-interactive: var(--paper-200);
+
+  --accent-progress: var(--gold-500);
+  --accent-calm: var(--sage-500);
+  --accent-band: var(--band-500);
+
+  --focus-ring: color-mix(in oklab, var(--slate-700) 40%, transparent);
+}

@@ -1,0 +1,32 @@
+/* ============================================================
+   Mood Builder — Spacing & sizing tokens
+   A calm, generous rhythm built on a 4px base. The brand leans
+   on large whitespace, so mid/large steps are used liberally.
+   ============================================================ */
+:root {
+  --space-0: 0;
+  --space-1: 2px;
+  --space-2: 4px;
+  --space-3: 6px;
+  --space-4: 8px;
+  --space-5: 12px;
+  --space-6: 14px;
+  --space-7: 16px;
+  --space-8: 18px;
+  --space-9: 22px;   /* screen gutter */
+  --space-10: 26px;
+  --space-12: 34px;
+  --space-16: 46px;
+
+  /* Semantic */
+  --gutter-screen: var(--space-9);   /* mobile screen side padding */
+  --gap-card: var(--space-7);        /* inner card padding */
+  --gap-stack: var(--space-5);       /* between stacked cards */
+  --gap-field: var(--space-8);       /* between form fields */
+
+  /* Mobile frame */
+  --phone-width: 340px;
+  --phone-height: 710px;
+  --statusbar-height: 42px;
+  --footer-height: 84px;
+}

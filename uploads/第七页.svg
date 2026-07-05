@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1314.85 2710">
+  <defs>
+    
+    <clipPath id="clippath">
+      <rect class="cls-16" x="0" y="0" width="1314.85" height="2710"></rect>
+    </clipPath>
+    <image id="image" width="1024" height="1536" xlink:href="../Rosso/Rosso Project 4/渲染后白模.png"></image>
+  </defs>
+  <g id="_图层_1" data-name="图层 1">
+    <rect class="cls-2" x="50.32" y="45" width="1211" height="2616" rx="170.44" ry="170.44"></rect>
+    <g id="IPHONE.psd">
+      <g class="cls-22">
+        <image id="_图层_1-2" data-name="图层 1" width="524" height="1080" transform="scale(2.51)"></image>
+      </g>
+    </g>
+    <rect class="cls-14" x="97.32" y="377" width="1129" height="1129" rx="81.85" ry="81.85"></rect>
+    <rect class="cls-18" x="97.32" y="1759" width="1129" height="525" rx="81.85" ry="81.85"></rect>
+    <rect class="cls-15" x="97.32" y="1759" width="394" height="525" rx="81.85" ry="81.85"></rect>
+    <rect class="cls-15" x="336.32" y="1759" width="169" height="525"></rect>
+    <use transform="translate(102.32 108) scale(1.14)" xlink:href="#image"></use>
+    <use class="cls-5" transform="translate(330.32 1549) scale(.65)" xlink:href="#image"></use>
+    <image width="283" height="767" transform="translate(329.86 1755.8) scale(.65)"></image>
+    <rect class="cls-1" x="114.57" y="1612.46" width="1094.76" height="69" rx="14.5" ry="14.5"></rect>
+    <rect class="cls-3" x="114.57" y="1612.46" width="218.76" height="69" rx="14.5" ry="14.5"></rect>
+    <rect class="cls-4" x="333.57" y="1612.46" width="218.76" height="69" rx="14.5" ry="14.5"></rect>
+    <rect class="cls-4" x="552.57" y="1613.46" width="140.76" height="69" rx="14.5" ry="14.5"></rect>
+    <rect class="cls-15" x="316.32" y="1605" width="34" height="82" rx="10.13" ry="10.13"></rect>
+    <rect class="cls-12" x="539.32" y="1606" width="34" height="82" rx="10.13" ry="10.13"></rect>
+    <rect class="cls-12" x="487.82" y="1744.5" width="34" height="547" rx="10.13" ry="10.13"></rect>
+    <rect class="cls-13" x="92.82" y="2318.5" width="1129" height="265" rx="132.5" ry="132.5"></rect>
+  </g>
+  <g id="_图层_2" data-name="图层 2">
+    <text class="cls-11" transform="translate(865.32 273.49)"><tspan class="cls-21" x="0" y="0">T</tspan><tspan x="27.54" y="0">emporal Layer</tspan></text>
+    <text class="cls-11" transform="translate(114.32 1584.49)"><tspan class="cls-20" x="0" y="0">T</tspan><tspan x="28.45" y="0">ime Gate</tspan></text>
+    <text class="cls-11" transform="translate(134.32 446.49)"><tspan x="0" y="0">Current Snapshot</tspan></text>
+    <text class="cls-10" transform="translate(107.31 280.61)"><tspan x="0" y="0">&lt; Back</tspan></text>
+    <text class="cls-9" transform="translate(525.32 314.32)"><tspan class="cls-20" x="0" y="0">T</tspan><tspan x="21.34" y="0">ime-gated snapshots of evolving space</tspan></text>
+    <text class="cls-9" transform="translate(994.32 1482.32)"><tspan x="0" y="0">Calm · 0.62</tspan></text>
+    <text class="cls-7" transform="translate(711.32 1546.32)"><tspan x="0" y="0">Drag to rotate · Pinch to zoom</tspan></text>
+    <text class="cls-7" transform="translate(842.32 1716.32)"><tspan x="0" y="0">Next update in 3 days</tspan></text>
+    <text class="cls-9" transform="translate(120.32 1660.32)"><tspan x="0" y="0">Past</tspan></text>
+    <text class="cls-9" transform="translate(158.32 2267.32)"><tspan x="0" y="0">Day </tspan><tspan class="cls-17" x="76.04" y="0">1</tspan><tspan x="93.39" y="0">1</tspan></text>
+    <text class="cls-9" transform="translate(1066.32 2267.32)"><tspan x="0" y="0">Day 14</tspan></text>
+    <text class="cls-8" transform="translate(537.32 1808.32)"><tspan x="0" y="0">Lighting −8%</tspan></text>
+    <text class="cls-9" transform="translate(609.63 1662.32)"><tspan x="0" y="0">Now</tspan></text>
+    <text class="cls-6" transform="translate(460.32 1596.03)"><tspan x="0" y="0">Selected: Day </tspan><tspan class="cls-17" x="164.07" y="0">1</tspan><tspan x="175.64" y="0">1</tspan></text>
+    <text class="cls-9" transform="translate(1004.32 441.32)"><tspan x="0" y="0">Stage 2 / 5</tspan></text>
+    <text class="cls-7" transform="translate(445.32 1448.32)"><tspan x="0" y="0">Captured · Day 14 · 09:41</tspan></text>
+    <text class="cls-19" transform="translate(365.03 2493.58)"><tspan x="0" y="0">View Insights</tspan></text>
+  </g>
+</svg>

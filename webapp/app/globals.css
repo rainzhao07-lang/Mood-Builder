@@ -1,0 +1,184 @@
+/* ============================================================
+   Mood Builder — global tokens & base styles (web rebuild)
+   Ported faithfully from the design-system tokens/*.css.
+   Quiet, near-clinical healing palette; self-hosted fonts.
+   ============================================================ */
+
+/* ---------- Self-hosted web fonts (served from /public/fonts) ---------- */
+@font-face { font-family:"Fraunces"; font-style:normal; font-weight:100 900; font-display:swap;
+  src:url("/fonts/fraunces-variable-normal.woff2") format("woff2"); }
+@font-face { font-family:"Fraunces"; font-style:italic; font-weight:100 900; font-display:swap;
+  src:url("/fonts/fraunces-variable-italic.woff2") format("woff2"); }
+@font-face { font-family:"Newsreader"; font-style:normal; font-weight:400; font-display:swap;
+  src:url("/fonts/newsreader-400.woff2") format("woff2"); }
+@font-face { font-family:"Newsreader"; font-style:italic; font-weight:400; font-display:swap;
+  src:url("/fonts/newsreader-400-italic.woff2") format("woff2"); }
+@font-face { font-family:"Newsreader"; font-style:normal; font-weight:500; font-display:swap;
+  src:url("/fonts/newsreader-500.woff2") format("woff2"); }
+@font-face { font-family:"Newsreader"; font-style:normal; font-weight:600; font-display:swap;
+  src:url("/fonts/newsreader-600.woff2") format("woff2"); }
+@font-face { font-family:"Hanken Grotesk"; font-style:normal; font-weight:400; font-display:swap;
+  src:url("/fonts/hanken-grotesk-400.woff2") format("woff2"); }
+@font-face { font-family:"Hanken Grotesk"; font-style:normal; font-weight:500; font-display:swap;
+  src:url("/fonts/hanken-grotesk-500.woff2") format("woff2"); }
+@font-face { font-family:"Hanken Grotesk"; font-style:normal; font-weight:600; font-display:swap;
+  src:url("/fonts/hanken-grotesk-600.woff2") format("woff2"); }
+@font-face { font-family:"Hanken Grotesk"; font-style:normal; font-weight:700; font-display:swap;
+  src:url("/fonts/hanken-grotesk-700.woff2") format("woff2"); }
+@font-face { font-family:"Geist"; font-style:normal; font-weight:400; font-display:swap;
+  src:url("/fonts/geist-sans-400.woff2") format("woff2"); }
+@font-face { font-family:"Geist"; font-style:normal; font-weight:500; font-display:swap;
+  src:url("/fonts/geist-sans-500.woff2") format("woff2"); }
+@font-face { font-family:"Geist Mono"; font-style:normal; font-weight:400; font-display:swap;
+  src:url("/fonts/geist-mono-400.woff2") format("woff2"); }
+@font-face { font-family:"Geist Mono"; font-style:normal; font-weight:500; font-display:swap;
+  src:url("/fonts/geist-mono-500.woff2") format("woff2"); }
+
+:root {
+  /* — teal ramp (text / interaction);仅此色卡 + 黑(深 teal)/白 — */
+  --slate-900:#2e4d58; --slate-800:#365a66; --slate-700:#3d6573;
+  --slate-500:#4e7a8a; --slate-400:#6a96a4; --slate-300:#8aafba;
+  /* — accent family(色卡 5 支 teal) — */
+  --sage-600:#4e7a8a; --sage-500:#6a96a4; --sage-300:#a9c7d0;
+  --mist-500:#8aafba; --band-500:#a9c7d0; --band-300:#c9dee6;
+  /* — 白为主中性色 + 极浅 teal 作层级步进 — */
+  --paper-000:#ffffff; --paper-100:#ffffff; --paper-200:#ffffff;
+  --panel-300:#eef5f8; --panel-400:#dcebf0; --panel-500:#ffffff;
+  --line-300:#c9dee6; --line-200:#dcebf0;
+  /* — progress 强调:中 teal(无金、无 cyan) — */
+  --gold-600:#4e7a8a; --gold-500:#6a96a4; --gold-300:#a9c7d0;
+  /* — status:全 teal,靠深浅区分 — */
+  --signal-rest:#8aafba; --signal-warn:#6a96a4; --signal-alert:#3d6573;
+
+  /* semantic aliases */
+  --text-strong:var(--slate-700); --text-body:var(--slate-500); --text-muted:var(--slate-400);
+  --text-inverse:var(--paper-200); --text-accent:var(--sage-500);
+  --surface-app:var(--panel-500); --surface-screen:var(--paper-100); --surface-card:var(--panel-300);
+  --surface-card-deep:var(--panel-400); --surface-immersive:var(--slate-900); --surface-raised:var(--paper-200);
+  --border-hairline:var(--line-300); --border-soft:var(--line-200);
+  --interactive:var(--slate-700); --interactive-hover:var(--slate-800); --interactive-press:var(--slate-900);
+  --on-interactive:var(--paper-200);
+  --accent-progress:var(--gold-500); --accent-calm:var(--sage-500); --accent-band:var(--band-500);
+  --focus-ring:color-mix(in oklab, var(--slate-700) 40%, transparent);
+
+  /* type */
+  --font-display:"Fraunces", Georgia, "Times New Roman", serif;
+  --font-serif-text:"Newsreader", Georgia, serif;
+  --font-sans:"Hanken Grotesk", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-sans-alt:"Geist", system-ui, sans-serif;
+  --font-mono:"Geist Mono", ui-monospace, "SFMono-Regular", monospace;
+  --weight-light:300; --weight-regular:400; --weight-medium:500; --weight-semibold:600; --weight-bold:700;
+  --display-xl:30px; --display-lg:25px; --display-md:24px; --display-sm:22px;
+  --numeric-lg:22px; --numeric-md:20px;
+  --text-lg:15px; --text-md:13.5px; --text-sm:13px; --text-xs:12px; --text-2xs:11px; --text-3xs:10px;
+  --leading-tight:1.12; --leading-snug:1.4; --leading-body:1.6;
+  --tracking-display:-0.01em; --tracking-tight:-0.005em; --tracking-wide:0.06em;
+  --tracking-eyebrow:0.14em; --tracking-caps:0.08em;
+
+  /* radius / shadow / motion */
+  --radius-xs:4px; --radius-sm:8px; --radius-md:14px; --radius-lg:16px;
+  --radius-xl:20px; --radius-2xl:36px; --radius-phone:46px; --radius-pill:999px;
+  --shadow-sm:0 1px 5px rgba(38,66,76,.10);
+  --shadow-card:0 2px 12px -4px rgba(46,77,88,.14);
+  --shadow-pop:0 8px 24px -10px rgba(46,77,88,.26);
+  --shadow-device:0 30px 60px -20px rgba(38,66,76,.45);
+  --ring-marker:0 0 0 6px rgba(46,77,88,.14); --ring-dot:0 0 0 5px rgba(46,77,88,.18);
+  --ease-settle:cubic-bezier(.22,.61,.36,1); --ease-soft:cubic-bezier(.4,0,.2,1);
+  --dur-fast:.15s; --dur-base:.24s; --dur-slow:.42s;
+
+  /* spacing */
+  --space-1:2px; --space-2:4px; --space-3:6px; --space-4:8px; --space-5:12px;
+  --space-6:14px; --space-7:16px; --space-8:18px; --space-9:22px; --space-10:26px;
+  --space-12:34px; --space-16:46px;
+  --gutter-screen:var(--space-9);
+}
+
+*, *::before, *::after { box-sizing:border-box; }
+* { margin:0; padding:0; }
+
+html { color-scheme:light; }
+body {
+  font-family:var(--font-sans);
+  color:var(--text-strong);
+  background: var(--surface-app);
+  min-height:100svh;
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+a { color:inherit; text-decoration:none; }
+button { font-family:inherit; }
+::selection { background:color-mix(in oklab, var(--sage-500) 40%, transparent); }
+
+/* ---------- shared editorial primitives (used across boards & app) ---------- */
+.eyebrow{ font-size:var(--text-2xs); letter-spacing:var(--tracking-eyebrow); text-transform:uppercase;
+  color:var(--text-accent); font-weight:700; }
+.kicker{ font-size:var(--text-2xs); letter-spacing:var(--tracking-caps); text-transform:uppercase;
+  color:var(--text-body); font-weight:600; }
+.display{ font-family:var(--font-display); font-weight:500; letter-spacing:var(--tracking-display);
+  line-height:var(--leading-tight); color:var(--text-strong); }
+.serif-title{ font-family:var(--font-display); font-weight:500; letter-spacing:var(--tracking-display);
+  line-height:1.08; }
+.note{ font-family:var(--font-serif-text); font-style:italic; color:var(--text-body); line-height:var(--leading-snug); }
+.lede{ font-size:var(--text-md); color:var(--text-body); line-height:var(--leading-body); }
+.metric{ font-family:var(--font-display); font-weight:500; color:var(--text-strong); }
+.mono{ font-family:var(--font-mono); font-variant-numeric:tabular-nums; }
+
+.wordmark{ font-family:var(--font-display); font-weight:500; letter-spacing:var(--tracking-display); }
+.wordmark em{ font-style:italic; color:var(--text-accent); font-weight:400; }
+
+.card{ background:var(--surface-card); border-radius:var(--radius-lg); padding:var(--space-7);
+  box-shadow:var(--shadow-card); }
+.card--paper{ background:var(--surface-raised); }
+.card--deep{ background:var(--surface-card-deep); }
+
+.btn{ display:inline-flex; align-items:center; justify-content:center; gap:8px;
+  font-family:var(--font-display); font-weight:500; font-size:var(--text-lg);
+  color:var(--text-strong); background:transparent;
+  border:1px solid var(--interactive); border-radius:var(--radius-pill);
+  padding:13px 22px; cursor:pointer; transition:background var(--dur-base) var(--ease-soft),
+  color var(--dur-base) var(--ease-soft), transform var(--dur-fast); }
+.btn:hover{ background:var(--interactive); color:var(--on-interactive); }
+.btn:active{ transform:scale(.98); }
+.btn--block{ width:100%; }
+.btn--filled{ background:var(--surface-raised); border-color:transparent; box-shadow:var(--shadow-sm); }
+.btn--filled:hover{ background:var(--panel-300); color:var(--text-strong); }
+
+.chip{ display:inline-flex; align-items:center; gap:6px; font-size:var(--text-xs); font-weight:600;
+  color:var(--text-body); background:var(--surface-raised); border:1px solid var(--border-soft);
+  border-radius:var(--radius-pill); padding:5px 12px; cursor:pointer; transition:all var(--dur-base); }
+.chip--on{ color:var(--on-interactive); background:var(--interactive); border-color:var(--interactive); }
+
+.statusdot{ width:6px; height:6px; border-radius:50%; display:inline-block; }
+.statusdot--rest{ background:var(--signal-rest); } .statusdot--warn{ background:var(--signal-warn); }
+.statusdot--alert{ background:var(--signal-alert); }
+
+.focusable:focus-visible{ outline:none; box-shadow:0 0 0 3px var(--focus-ring); border-radius:var(--radius-sm); }
+
+/* ---------- motion: scroll-reveal + interactive cues (整站) ---------- */
+/* reveal:默认可见(首屏/无 JS/慢 hydration 均不空白);
+   仅客户端挂载后,对折叠线以下、当前不可见的模块加 data-pending 才隐藏。 */
+[data-reveal]{
+  transition:opacity var(--dur-slow) var(--ease-settle),
+             transform var(--dur-slow) var(--ease-settle);
+}
+[data-reveal][data-pending]{
+  opacity:0; transform:translateY(var(--reveal-y, 18px));
+  will-change:opacity, transform;
+}
+
+/* 文字链接:编辑感下划线由内向外展开 */
+.ulink{
+  background-image:linear-gradient(var(--text-accent), var(--text-accent));
+  background-size:0% 1px; background-repeat:no-repeat; background-position:0 92%;
+  transition:background-size var(--dur-base) var(--ease-soft), color var(--dur-base);
+}
+.ulink:hover, .ulink:focus-visible{ background-size:100% 1px; color:var(--text-strong); }
+
+/* 轻抬升:卡片/可点元素悬停 */
+.lift{ transition:transform var(--dur-base) var(--ease-settle), box-shadow var(--dur-base); }
+.lift:hover{ transform:translateY(-3px); box-shadow:var(--shadow-pop); }
+
+@media (prefers-reduced-motion: reduce){
+  *{ animation-duration:.001ms !important; transition-duration:.001ms !important; }
+  [data-reveal], [data-reveal][data-pending]{ opacity:1 !important; transform:none !important; }
+}

@@ -1,0 +1,33 @@
+<!-- @dsCard group="Type" viewport="700x230" name="Body, UI & italic captions" subtitle="Hanken Grotesk for UI; Newsreader italic for editorial captions" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;600;700&family=Newsreader:ital,opsz,wght@1,6..72,400;1,6..72,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  *{margin:0;box-sizing:border-box}
+  body{font-family:var(--font-sans);background:var(--surface-screen);padding:22px 24px;color:var(--text-strong)}
+  .meta{font-size:10px;color:var(--text-muted);letter-spacing:.06em;font-weight:500;margin-bottom:10px}
+  .lede{font-size:var(--text-md);color:var(--text-body);line-height:var(--leading-body);max-width:80%}
+  .row{display:flex;gap:18px;align-items:baseline;margin-top:14px;flex-wrap:wrap}
+  .row span{display:flex;flex-direction:column;gap:2px}
+  .row b{font-size:18px}
+  .row small{font-size:9.5px;color:var(--text-muted);font-weight:500}
+  .w3{font-weight:300}.w4{font-weight:400}.w5{font-weight:500}.w6{font-weight:600}.w7{font-weight:700}
+</style>
+</head>
+<body>
+  <div class="meta">HANKEN GROTESK · 300 / 400 / 500 / 600 / 700</div>
+  <div class="lede">Each day you record how you feel. The space remembers, and grows — quietly, at the pace of a held breath.</div>
+  <div style="font-family:var(--font-serif-text);font-style:italic;font-weight:500;font-size:16px;color:var(--text-accent);margin-top:12px">Place where it feels most accurate to you.</div>
+  <div class="row">
+    <span><b class="w3">Light</b><small>300</small></span>
+    <span><b class="w4">Regular</b><small>400 · body</small></span>
+    <span><b class="w5">Medium</b><small>500</small></span>
+    <span><b class="w6">Semibold</b><small>600 · button</small></span>
+    <span><b class="w7">Bold</b><small>700 · emphasis</small></span>
+  </div>
+</body>
+</html>

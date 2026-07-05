@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1314.85 2710">
+  <defs>
+    
+    <clipPath id="clippath">
+      <rect class="cls-20" width="1314.85" height="2710"></rect>
+    </clipPath>
+    <filter id="luminosity-noclip" x="967.64" y="831.36" width="39.36" height="39.36" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"></feFlood>
+      <feBlend in="SourceGraphic" in2="bg"></feBlend>
+    </filter>
+    <mask id="mask" x="967.64" y="831.36" width="39.36" height="39.36" maskUnits="userSpaceOnUse">
+      <g class="cls-33">
+        <image width="164" height="164" transform="translate(967.64 831.36) scale(.24)"></image>
+      </g>
+    </mask>
+    <filter id="luminosity-noclip-2" x="1011.32" y="987.84" width="39.12" height="39.36" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"></feFlood>
+      <feBlend in="SourceGraphic" in2="bg"></feBlend>
+    </filter>
+    <mask id="mask-1" x="1011.32" y="987.84" width="39.12" height="39.36" maskUnits="userSpaceOnUse">
+      <g class="cls-19">
+        <image width="163" height="164" transform="translate(1011.32 987.84) scale(.24)"></image>
+      </g>
+    </mask>
+    <filter id="luminosity-noclip-3" x="1069.16" y="1152.96" width="39.36" height="39.12" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"></feFlood>
+      <feBlend in="SourceGraphic" in2="bg"></feBlend>
+    </filter>
+    <mask id="mask-2" x="1069.16" y="1152.96" width="39.36" height="39.12" maskUnits="userSpaceOnUse">
+      <g class="cls-23">
+        <image width="164" height="163" transform="translate(1069.16 1152.96) scale(.24)"></image>
+      </g>
+    </mask>
+    <filter id="luminosity-noclip-4" x="784.28" y="1425.84" width="39.12" height="39.36" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"></feFlood>
+      <feBlend in="SourceGraphic" in2="bg"></feBlend>
+    </filter>
+    <mask id="mask-3" x="784.28" y="1425.84" width="39.12" height="39.36" maskUnits="userSpaceOnUse">
+      <g class="cls-28">
+        <image width="163" height="164" transform="translate(784.28 1425.84) scale(.24)"></image>
+      </g>
+    </mask>
+    <filter id="luminosity-noclip-5" x="755.24" y="1526.88" width="39.12" height="39.12" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"></feFlood>
+      <feBlend in="SourceGraphic" in2="bg"></feBlend>
+    </filter>
+    <mask id="mask-4" x="755.24" y="1526.88" width="39.12" height="39.12" maskUnits="userSpaceOnUse">
+      <g class="cls-11">
+        <image width="163" height="163" transform="translate(755.24 1526.88) scale(.24)"></image>
+      </g>
+    </mask>
+  </defs>
+  <g id="_图层_1" data-name="图层 1">
+    <rect class="cls-10" x="50.32" y="45" width="1211" height="2616" rx="170.44" ry="170.44"></rect>
+    <g id="IPHONE.psd">
+      <g class="cls-31">
+        <image width="524" height="1080" transform="scale(2.51)"></image>
+      </g>
+    </g>
+    <rect class="cls-27" x="97.32" y="1822" width="1129" height="457" rx="81.85" ry="81.85"></rect>
+    <rect class="cls-1" x="96.32" y="327" width="1129" height="351" rx="81.85" ry="81.85"></rect>
+    <rect class="cls-27" x="97.32" y="719" width="1129" height="573" rx="81.85" ry="81.85"></rect>
+    <rect class="cls-1" x="97.32" y="1327" width="1129" height="457" rx="81.85" ry="81.85"></rect>
+    <rect class="cls-4" x="124.32" y="354" width="267.5" height="62" rx="31" ry="31"></rect>
+    <rect class="cls-4" x="907.82" y="354" width="289" height="62" rx="31" ry="31"></rect>
+    <rect class="cls-2" x="117.32" y="592" width="1090" height="29" rx="14.5" ry="14.5"></rect>
+    <rect class="cls-21" x="117.32" y="592" width="904" height="29" rx="14.5" ry="14.5"></rect>
+    <rect class="cls-2" x="804.32" y="837" width="403" height="29" rx="14.5" ry="14.5"></rect>
+    <rect class="cls-13" x="804.32" y="837" width="193" height="29" rx="14.5" ry="14.5"></rect>
+    <rect class="cls-4" x="131.82" y="1422.5" width="282" height="44.5" rx="22.25" ry="22.25"></rect>
+    <rect class="cls-4" x="130.82" y="1523.5" width="300" height="44.5" rx="22.25" ry="22.25"></rect>
+    <rect class="cls-4" x="1027.82" y="1852.5" width="162" height="44.5" rx="22.25" ry="22.25"></rect>
+    <rect class="cls-4" x="130.82" y="2010.5" width="196" height="80.5" rx="40.25" ry="40.25"></rect>
+    <rect class="cls-8" x="993.82" y="2010.5" width="196" height="80.5" rx="40.25" ry="40.25"></rect>
+    <rect class="cls-4" x="706.16" y="2010.5" width="196" height="80.5" rx="40.25" ry="40.25"></rect>
+    <rect class="cls-4" x="418.49" y="2011.5" width="196" height="80.5" rx="40.25" ry="40.25"></rect>
+    <g class="cls-12">
+      <g>
+        <circle class="cls-5" cx="987.32" cy="851" r="17"></circle>
+        <circle class="cls-9" cx="987.32" cy="851" r="17"></circle>
+      </g>
+    </g>
+    <rect class="cls-2" x="804.32" y="993" width="403" height="29" rx="14.5" ry="14.5"></rect>
+    <rect class="cls-13" x="804.32" y="993" width="230" height="29" rx="14.5" ry="14.5"></rect>
+    <g class="cls-3">
+      <g>
+        <circle class="cls-5" cx="1030.82" cy="1007.5" r="17"></circle>
+        <circle class="cls-9" cx="1030.82" cy="1007.5" r="17"></circle>
+      </g>
+    </g>
+    <rect class="cls-2" x="803.32" y="1158" width="403" height="29" rx="14.5" ry="14.5"></rect>
+    <rect class="cls-13" x="803.32" y="1158" width="289" height="29" rx="14.5" ry="14.5"></rect>
+    <g class="cls-22">
+      <g>
+        <circle class="cls-5" cx="1088.82" cy="1172.5" r="17"></circle>
+        <circle class="cls-9" cx="1088.82" cy="1172.5" r="17"></circle>
+      </g>
+    </g>
+    <rect class="cls-26" x="591.32" y="1431" width="403" height="29" rx="14.5" ry="14.5"></rect>
+    <rect class="cls-13" x="591.32" y="1431" width="221" height="29" rx="14.5" ry="14.5"></rect>
+    <g class="cls-32">
+      <g>
+        <circle class="cls-5" cx="803.82" cy="1445.5" r="17"></circle>
+        <circle class="cls-9" cx="803.82" cy="1445.5" r="17"></circle>
+      </g>
+    </g>
+    <rect class="cls-26" x="593.32" y="1532" width="403" height="29" rx="14.5" ry="14.5"></rect>
+    <rect class="cls-13" x="593.32" y="1532" width="186" height="29" rx="14.5" ry="14.5"></rect>
+    <g class="cls-29">
+      <g>
+        <circle class="cls-5" cx="774.82" cy="1546.5" r="17"></circle>
+        <circle class="cls-9" cx="774.82" cy="1546.5" r="17"></circle>
+      </g>
+    </g>
+  </g>
+  <g id="_图层_2" data-name="图层 2">
+    <text class="cls-18" transform="translate(564.42 279.36)"><tspan x="0" y="0">Insights</tspan></text>
+    <text class="cls-18" transform="translate(135.42 403.36)"><tspan x="0" y="0">Stage 2 / 5</tspan></text>
+    <text class="cls-18" transform="translate(143.42 786.46)"><tspan x="0" y="0">Key Changes</tspan></text>
+    <text class="cls-18" transform="translate(136.42 1394.46)"><tspan x="0" y="0">Drivers</tspan></text>
+    <text class="cls-18" transform="translate(130.42 1896.46)"><tspan x="0" y="0">Archive</tspan></text>
+    <text class="cls-18" transform="translate(927.32 403.36)"><tspan x="0" y="0">Calm · 0.62</tspan></text>
+    <text class="cls-17" transform="translate(107.31 280.61)"><tspan x="0" y="0">&lt; Back</tspan></text>
+    <text class="cls-16" transform="translate(124.32 467.32)"><tspan x="0" y="0">Last 14 days · Updated Day 14 · 09:41</tspan></text>
+    <g>
+      <rect class="cls-4" x="122.82" y="829.5" width="183" height="44.5" rx="22.25" ry="22.25"></rect>
+      <text class="cls-16" transform="translate(138.32 863.32)"><tspan x="0" y="0">Lighting</tspan></text>
+      <text class="cls-16" transform="translate(132.32 920.32)"><tspan x="0" y="0">Softer contrast, reduced highlights</tspan></text>
+      <text class="cls-15" transform="translate(320.9 863.32)"><tspan x="0" y="0">−8%</tspan></text>
+    </g>
+    <g>
+      <rect class="cls-4" x="123.82" y="984.5" width="320" height="44.5" rx="22.25" ry="22.25"></rect>
+      <text class="cls-16" transform="translate(141.32 1020.32)"><tspan x="0" y="0">Element Density</tspan></text>
+      <text class="cls-16" transform="translate(131.32 1082.32)"><tspan x="0" y="0">More vegetation + micro-structures </tspan></text>
+      <text class="cls-15" transform="translate(456.9 1020.32)"><tspan x="0" y="0">+12%</tspan></text>
+    </g>
+    <rect class="cls-4" x="123.82" y="1146.5" width="158" height="44.5" rx="22.25" ry="22.25"></rect>
+    <text class="cls-16" transform="translate(141.32 1182.32)"><tspan x="0" y="0">Layout</tspan></text>
+    <text class="cls-16" transform="translate(129.82 1249.82)"><tspan x="0" y="0">Fewer turns, clearer path </tspan></text>
+    <text class="cls-16" transform="translate(136.82 1457.82)"><tspan x="0" y="0">Objective Input </tspan></text>
+    <text class="cls-15" transform="translate(305.9 1184.32)"><tspan x="0" y="0">More linear</tspan></text>
+    <text class="cls-15" transform="translate(434.9 1460.32)"><tspan x="0" y="0">55%</tspan></text>
+    <text class="cls-16" transform="translate(135.82 1558.82)"><tspan x="0" y="0">Subjective Input </tspan></text>
+    <text class="cls-16" transform="translate(1041.32 1887.82)"><tspan class="cls-30" x="0" y="0">V</tspan><tspan x="22.68" y="0">iew all</tspan></text>
+    <text class="cls-16" transform="translate(386.32 2242.82)"><tspan class="cls-30" x="0" y="0">T</tspan><tspan x="20.65" y="0">ap a day to open its snapshot.</tspan></text>
+    <text class="cls-17" transform="translate(160.32 2067.17)"><tspan x="0" y="0">Day 3</tspan></text>
+    <text class="cls-7" transform="translate(1010.32 2068.17)"><tspan x="0" y="0">Day 14</tspan></text>
+    <text class="cls-17" transform="translate(727.32 2067.17)"><tspan x="0" y="0">Day </tspan><tspan class="cls-24" x="101.39" y="0">1</tspan><tspan x="124.52" y="0">1</tspan></text>
+    <text class="cls-17" transform="translate(448.32 2068.17)"><tspan x="0" y="0">Day 7</tspan></text>
+    <text class="cls-16" transform="translate(136.82 1651.82)"><tspan x="0" y="0">HRV remained stable → calm weighting increased.</tspan></text>
+    <text class="cls-16" transform="translate(136.82 1738.82)"><tspan class="cls-30" x="0" y="0">Y</tspan><tspan x="22.68" y="0">our placement confirmed the emotion-space mapping.</tspan></text>
+    <text class="cls-15" transform="translate(451.9 1561.32)"><tspan x="0" y="0">45%</tspan></text>
+    <text class="cls-14" transform="translate(1154.3 279.68)"><tspan x="0" y="0">⋯</tspan></text>
+    <rect class="cls-6" x="92.82" y="2318.5" width="1129" height="265" rx="132.5" ry="132.5"></rect>
+    <text class="cls-25" transform="translate(346.02 2493.58)"><tspan x="0" y="0">Save Snapshot</tspan></text>
+  </g>
+</svg>

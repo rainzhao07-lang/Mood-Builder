@@ -1,0 +1,60 @@
+<!-- @dsCard group="Components" viewport="700x300" name="StageBar · ProgressBar · SignalRow · Chip" subtitle="Stage & progress tracks, sensor rows, filter chips" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../styles.css">
+<style>
+  *{margin:0;box-sizing:border-box}
+  body{font-family:var(--font-sans);background:var(--surface-screen);padding:20px}
+  .grid{display:grid;grid-template-columns:1.1fr 1fr;gap:18px;align-items:start}
+  .stack{display:flex;flex-direction:column;gap:14px}
+  .lbl{font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--text-muted);font-weight:700}
+  .chips{display:flex;gap:8px;flex-wrap:wrap}
+  .panel{background:var(--surface-card);border-radius:var(--radius-lg);padding:4px 16px}
+</style>
+</head>
+<body>
+  <div id="root"></div>
+  <script src="../../_ds_bundle.js"></script>
+  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+  <script type="text/babel">
+    const { StageBar, ProgressBar, SignalRow, Chip } = window.MoodBuilderDesignSystem_426a1b;
+    function Demo(){
+      return (
+        <div className="grid">
+          <div className="stack">
+            <div className="lbl">Stage & progress</div>
+            <StageBar stage={2} total={5} note="+3d" />
+            <ProgressBar value={50} color="sage" />
+            <div className="lbl" style={{marginTop:'4px'}}>Sensor signals</div>
+            <div className="panel">
+              <SignalRow label="Heart-rate variability" status="rest" statusText="Stable" value="72" unit="ms" />
+              <SignalRow label="Skin conductance" status="warn" statusText="Tracking" value="Low" />
+              <SignalRow label="Motion" status="rest" statusText="Minimal" value="Low" />
+            </div>
+          </div>
+          <div className="stack">
+            <div className="lbl">Filter chips</div>
+            <div className="chips">
+              <Chip selected onClick={()=>{}}>All</Chip>
+              <Chip onClick={()=>{}}>By Stage</Chip>
+              <Chip onClick={()=>{}}>By Emotion</Chip>
+              <Chip onClick={()=>{}}>By Change</Chip>
+            </div>
+            <div className="lbl" style={{marginTop:'4px'}}>Archive day tags</div>
+            <div className="chips">
+              <Chip>Day 3</Chip><Chip>Day 7</Chip><Chip>Day 11</Chip><Chip>Day 14</Chip>
+            </div>
+          </div>
+        </div>
+      );
+    }
+    ReactDOM.createRoot(document.getElementById('root')).render(<Demo/>);
+  </script>
+</body>
+</html>

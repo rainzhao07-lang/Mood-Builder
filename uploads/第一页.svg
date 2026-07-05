@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1314.85 2710">
+  <defs>
+    
+    <clipPath id="clippath">
+      <rect class="cls-3" x="0" y="0" width="1314.85" height="2710"></rect>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-3" x="588.32" y="1025" width="134" height="157.72"></rect>
+    </clipPath>
+  </defs>
+  <g id="_图层_1" data-name="图层 1">
+    <rect class="cls-4" x="50.32" y="45" width="1211" height="2616" rx="170.44" ry="170.44"></rect>
+    <rect class="cls-2" x="102.32" y="1453" width="1110" height="265" rx="132.5" ry="132.5"></rect>
+    <g id="IPHONE.psd">
+      <g class="cls-9">
+        <image id="_图层_1-2" data-name="图层 1" width="524" height="1080" transform="scale(2.51)"></image>
+      </g>
+    </g>
+    <g id="LOGO.psd" class="cls-1">
+      <g class="cls-5">
+        <image id="_图层_1-3" data-name="图层 1" width="870" height="1024" transform="translate(588.32 1025) scale(.15)"></image>
+      </g>
+    </g>
+  </g>
+  <g id="_图层_2" data-name="图层 2">
+    <text class="cls-7" transform="translate(174.54 1304.58)"><tspan class="cls-8" x="0" y="0">A</tspan><tspan x="30.23" y="0" xml:space="preserve"> system that translates emotional states into </tspan><tspan x="304.57" y="57.6">evolving spaces.</tspan></text>
+    <text class="cls-6" transform="translate(477.08 1615)"><tspan x="0" y="0">Observe</tspan></text>
+  </g>
+</svg>

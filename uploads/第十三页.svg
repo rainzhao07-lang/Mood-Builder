@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1314.85 2710">
+  <defs>
+    
+    <clipPath id="clippath">
+      <rect class="cls-10" width="1314.85" height="2710"></rect>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-10" x="108.32" y="375" width="1099" height="732.67"></rect>
+    </clipPath>
+  </defs>
+  <g id="_图层_1" data-name="图层 1">
+    <rect class="cls-3" x="50.32" y="45" width="1211" height="2616" rx="170.44" ry="170.44"></rect>
+    <g id="IPHONE.psd">
+      <g class="cls-18">
+        <image width="524" height="1080" transform="scale(2.51)"></image>
+      </g>
+    </g>
+    <rect class="cls-15" x="107.32" y="410" width="1117" height="597" rx="81.85" ry="81.85"></rect>
+    <rect class="cls-16" x="107.32" y="1035" width="1117" height="402" rx="81.85" ry="81.85"></rect>
+    <rect class="cls-1" x="153.3" y="1300.67" width="317.53" height="44.5" rx="22.25" ry="22.25"></rect>
+  </g>
+  <g id="_图层_2" data-name="图层 2">
+    <text class="cls-9" transform="translate(562.42 279.36)"><tspan class="cls-17" x="0" y="0">V</tspan><tspan x="30.23" y="0">ariants</tspan></text>
+    <text class="cls-9" transform="translate(146.42 481.36)"><tspan x="0" y="0">Selected </tspan><tspan class="cls-17" x="210.77" y="0">V</tspan><tspan x="241.01" y="0">ariant</tspan></text>
+    <text class="cls-9" transform="translate(154.42 1105.36)"><tspan x="0" y="0">Quick Di</tspan><tspan class="cls-14" x="194.72" y="0">f</tspan><tspan x="209.84" y="0">ferences</tspan></text>
+    <text class="cls-6" transform="translate(1154.3 279.68)"><tspan x="0" y="0">⋯</tspan></text>
+    <text class="cls-8" transform="translate(107.31 280.61)"><tspan x="0" y="0">&lt; Back</tspan></text>
+    <text class="cls-7" transform="translate(529.32 361.32)"><tspan x="0" y="0">Select a version to continue composing</tspan></text>
+    <text class="cls-7" transform="translate(427.32 988.32)"><tspan x="0" y="0">Drag to rotate · Pinch to zoom</tspan></text>
+    <text class="cls-7" transform="translate(171.32 1335.32)"><tspan x="0" y="0">Element Density</tspan></text>
+    <text class="cls-7" transform="translate(153.32 1391.32)"><tspan x="0" y="0">Calm: +12%</tspan></text>
+    <text class="cls-7" transform="translate(586.82 1391.32)"><tspan x="0" y="0">Scared: −4%</tspan></text>
+    <text class="cls-8" transform="translate(262.83 1556.61)"><tspan x="0" y="0">These variants are rule-constrained </tspan><tspan x="20.09" y="57.6">from your current emotion vecto</tspan><tspan class="cls-11" x="761.53" y="57.6">r</tspan><tspan x="777.56" y="57.6">.</tspan></text>
+    <text class="cls-7" transform="translate(1031.32 1391.32)"><tspan x="0" y="0">Sad: +6%</tspan></text>
+    <g>
+      <rect class="cls-1" x="154.3" y="1138.67" width="179.53" height="44.5" rx="22.25" ry="22.25"></rect>
+      <text class="cls-7" transform="translate(172.32 1173.32)"><tspan x="0" y="0">Lighting</tspan></text>
+      <text class="cls-7" transform="translate(154.32 1226.32)"><tspan x="0" y="0">Calm: +8%</tspan></text>
+      <text class="cls-7" transform="translate(567.82 1226.32)"><tspan x="0" y="0">Scared: −8%</tspan></text>
+      <text class="cls-7" transform="translate(1011.32 1226.32)"><tspan x="0" y="0">Sad: −12%</tspan></text>
+    </g>
+    <rect class="cls-2" x="92.82" y="2318.5" width="1129" height="265" rx="132.5" ry="132.5"></rect>
+    <text class="cls-13" transform="translate(333.7 2493.58)"><tspan x="0" y="0">Choose Variant</tspan></text>
+    <rect class="cls-5" x="90.82" y="2109.5" width="1129" height="186" rx="93" ry="93"></rect>
+    <text class="cls-4" transform="translate(359.32 2226.34)"><tspan x="0" y="0">Compare </tspan><tspan class="cls-17" x="332.09" y="0">V</tspan><tspan x="377.44" y="0">ariants</tspan></text>
+    <g class="cls-12">
+      <image width="1536" height="1024" transform="translate(108.32 375) scale(.72)"></image>
+    </g>
+  </g>
+</svg>

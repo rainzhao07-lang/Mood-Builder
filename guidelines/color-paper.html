@@ -1,0 +1,31 @@
+<!-- @dsCard group="Colors" viewport="700x172" name="Paper & panel neutrals" subtitle="Warm off-white surfaces, panels and hairlines" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  *{margin:0;box-sizing:border-box}
+  body{font-family:var(--font-sans);background:#cfd6d2;padding:20px 22px;color:var(--text-strong)}
+  .row{display:flex;gap:10px}
+  .sw{flex:1;display:flex;flex-direction:column;gap:6px}
+  .chip{height:64px;border-radius:var(--radius-md);box-shadow:inset 0 0 0 1px var(--border-hairline)}
+  .name{font-size:11px;font-weight:600}
+  .hex{font-size:10.5px;color:var(--text-muted)}
+  .cap{font-size:10px;color:var(--text-muted);margin-top:12px}
+</style>
+</head>
+<body>
+  <div class="row">
+    <div class="sw"><div class="chip" style="background:var(--paper-000)"></div><div class="name">paper-000</div><div class="hex">#ffffff</div></div>
+    <div class="sw"><div class="chip" style="background:var(--paper-100)"></div><div class="name">paper-100 ·screen</div><div class="hex">#f4f5f2</div></div>
+    <div class="sw"><div class="chip" style="background:var(--paper-200)"></div><div class="name">paper-200</div><div class="hex">#eef1ee</div></div>
+    <div class="sw"><div class="chip" style="background:var(--panel-300)"></div><div class="name">panel-300 ·card</div><div class="hex">#dde4e2</div></div>
+    <div class="sw"><div class="chip" style="background:var(--panel-400)"></div><div class="name">panel-400 ·track</div><div class="hex">#cdd8d5</div></div>
+    <div class="sw"><div class="chip" style="background:var(--panel-500)"></div><div class="name">panel-500 ·app</div><div class="hex">#d7dcd8</div></div>
+  </div>
+  <div class="cap">Screens sit on warm off-white (paper-100). Cards use panel-300; the app chrome behind a device uses panel-500.</div>
+</body>
+</html>

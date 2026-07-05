@@ -1,0 +1,45 @@
+<!-- @dsCard group="Components" viewport="700x300" name="Card · MetricStat · SpaceTile" subtitle="Panels, serif metrics and spatial render tiles" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../styles.css">
+<style>
+  *{margin:0;box-sizing:border-box}
+  body{font-family:var(--font-sans);background:var(--surface-screen);padding:20px}
+  .grid{display:grid;grid-template-columns:0.9fr 1.1fr 1fr;gap:14px;align-items:start}
+  .stack{display:flex;flex-direction:column;gap:12px}
+</style>
+</head>
+<body>
+  <div id="root"></div>
+  <script src="../../_ds_bundle.js"></script>
+  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+  <script type="text/babel">
+    const { Card, MetricStat, SpaceTile } = window.MoodBuilderDesignSystem_426a1b;
+    function Demo(){
+      return (
+        <div className="grid">
+          <div className="stack">
+            <Card><MetricStat label="Emotion State" value="Calm" unit="0.62" /></Card>
+            <Card tone="deep"><MetricStat label="Heart-rate variability" value="72" unit="ms" /></Card>
+          </div>
+          <div className="stack">
+            <SpaceTile src="../../assets/renders/space-iso-open.png" height={170} caption="Spatial configuration · Stage 2" />
+            <Card tone="paper"><MetricStat label="Stage" value="2 / 5" /></Card>
+          </div>
+          <div className="stack">
+            <SpaceTile src="../../assets/renders/immersive-ruins.png" cover height={236}
+              metaLeft="Captured · Day 14" metaRight="Calm · 0.62" />
+          </div>
+        </div>
+      );
+    }
+    ReactDOM.createRoot(document.getElementById('root')).render(<Demo/>);
+  </script>
+</body>
+</html>

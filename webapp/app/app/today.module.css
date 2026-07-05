@@ -1,0 +1,199 @@
+/* /app Today — 记录流 */
+
+.spaceCard {
+  border-radius: var(--radius-2xl);
+  background: var(--surface-immersive);
+  padding: 12px;
+  box-shadow: var(--shadow-pop);
+}
+
+.spaceFrame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 50% 36%, color-mix(in oklab, var(--slate-700) 46%, transparent), transparent 60%),
+    linear-gradient(160deg, color-mix(in oklab, var(--slate-900) 78%, #000), color-mix(in oklab, var(--slate-900) 96%, #000));
+}
+
+.layer {
+  object-fit: contain;
+  object-position: center 62%;
+}
+
+.spaceBadge {
+  position: absolute;
+  left: 12px;
+  bottom: 12px;
+  z-index: 3;
+  padding: 5px 11px;
+  border-radius: var(--radius-pill);
+  background: color-mix(in oklab, var(--slate-900) 60%, transparent);
+  color: var(--paper-000);
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  font-weight: 700;
+  backdrop-filter: blur(6px);
+}
+
+.weatherBadge {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  z-index: 3;
+  padding: 4px 10px;
+  border-radius: var(--radius-pill);
+  background: color-mix(in oklab, var(--paper-000) 18%, transparent);
+  color: var(--paper-000);
+  font-size: var(--text-2xs);
+  font-weight: 700;
+  letter-spacing: var(--tracking-caps);
+  text-transform: uppercase;
+  backdrop-filter: blur(6px);
+}
+
+.readGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin-top: 12px;
+  padding: 0 4px 2px;
+}
+
+.read {
+  text-align: center;
+  color: var(--paper-000);
+}
+
+.read b {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: var(--numeric-md);
+  font-weight: 500;
+}
+
+.read span {
+  display: block;
+  margin-top: 2px;
+  font-size: var(--text-2xs);
+  letter-spacing: var(--tracking-caps);
+  text-transform: uppercase;
+  color: color-mix(in oklab, var(--paper-000) 70%, transparent);
+}
+
+.wheelWrap {
+  display: flex;
+  justify-content: center;
+  padding: 4px 0;
+}
+
+.textTeaser {
+  margin: 12px 0 0;
+  padding: 10px 12px;
+  border-radius: var(--radius-md);
+  border: 1px dashed var(--border-hairline);
+  color: var(--text-muted);
+  font-size: var(--text-xs);
+}
+
+/* 紧凑滑杆 */
+.slider {
+  margin-top: 12px;
+}
+
+.slider:first-of-type {
+  margin-top: 0;
+}
+
+.sliderTop {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.sliderTop label {
+  font-size: var(--text-sm);
+  color: var(--text-body);
+}
+
+.sliderTop b {
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  color: var(--text-strong);
+}
+
+.slider input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 5px;
+  border-radius: var(--radius-pill);
+  background: var(--panel-400);
+  outline: none;
+  cursor: pointer;
+}
+
+.slider input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--paper-000);
+  border: 1px solid var(--border-hairline);
+  box-shadow: var(--shadow-sm);
+}
+
+.slider input[type="range"]::-moz-range-thumb {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--paper-000);
+  border: 1px solid var(--border-hairline);
+}
+
+.slider input[type="range"]:focus-visible {
+  box-shadow: 0 0 0 3px var(--focus-ring);
+}
+
+/* 保存 */
+.saveBtn {
+  width: 100%;
+  padding: 15px;
+  border: 0;
+  border-radius: var(--radius-pill);
+  background: var(--interactive);
+  color: var(--on-interactive);
+  font-family: var(--font-sans);
+  font-size: var(--text-lg);
+  font-weight: 700;
+  cursor: pointer;
+  transition: background var(--dur-base), transform var(--dur-fast);
+}
+
+.saveBtn:active {
+  transform: scale(0.985);
+}
+
+.countNote {
+  margin: 2px 0 0;
+  text-align: center;
+  font-size: var(--text-xs);
+  color: var(--text-muted);
+}
+
+.viewerLoading {
+  display: grid;
+  place-items: center;
+  aspect-ratio: 1 / 1;
+  min-height: 340px;
+  border-radius: var(--radius-2xl);
+  background: var(--surface-immersive);
+  color: color-mix(in oklab, var(--paper-000) 76%, transparent);
+  font-size: var(--text-sm);
+  letter-spacing: var(--tracking-caps);
+  text-transform: uppercase;
+}

@@ -1,0 +1,55 @@
+/* ============================================================
+   Mood Builder — Typography tokens
+   Display: Fraunces (serif, opsz, occasional italic) — quiet,
+   editorial, slightly literary headlines.
+   Body / UI: Hanken Grotesk (humanist sans) — calm, legible,
+   slightly warm grotesque.
+   ============================================================ */
+:root {
+  /* — Families — */
+  --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+  --font-serif-text: "Newsreader", Georgia, serif; /* italic captions & labels */
+  --font-sans: "Hanken Grotesk", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-sans-alt: "Geist", system-ui, sans-serif; /* available alternate sans */
+  --font-mono: "Geist Mono", ui-monospace, "SFMono-Regular", monospace;
+
+  /* — Weights — */
+  --weight-light: 300;
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+
+  /* — Display sizes (Fraunces) — */
+  --display-xl: 30px;   /* hero / app title */
+  --display-lg: 25px;   /* immersive title */
+  --display-md: 24px;   /* screen title */
+  --display-sm: 22px;   /* compact title */
+  --numeric-lg: 22px;   /* serif metric value */
+  --numeric-md: 20px;
+
+  /* — Body / UI sizes (Hanken Grotesk) — */
+  --text-lg: 15px;      /* button / lede emphasis */
+  --text-md: 13.5px;    /* default body */
+  --text-sm: 13px;      /* secondary */
+  --text-xs: 12px;      /* captions */
+  --text-2xs: 11px;     /* eyebrow / meta */
+  --text-3xs: 10px;     /* micro labels */
+
+  /* — Line heights — */
+  --leading-tight: 1.12;  /* display */
+  --leading-snug: 1.4;
+  --leading-body: 1.6;    /* lede / paragraphs */
+
+  /* — Tracking — */
+  --tracking-display: -0.01em;
+  --tracking-tight: -0.005em;
+  --tracking-normal: 0;
+  --tracking-wide: 0.06em;
+  --tracking-eyebrow: 0.14em; /* uppercase eyebrows */
+  --tracking-caps: 0.08em;
+
+  /* — Optical size (Fraunces axis) — */
+  --opsz-display: 96; /* @kind other */
+  --opsz-text: 28;
+}

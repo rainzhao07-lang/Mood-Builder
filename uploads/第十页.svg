@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1314.85 2710">
+  <defs>
+    
+    <clipPath id="clippath">
+      <rect class="cls-17" width="1314.85" height="2710"></rect>
+    </clipPath>
+    <filter id="luminosity-noclip" x="584.6" y="1005.36" width="39.12" height="60.48" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"></feFlood>
+      <feBlend in="SourceGraphic" in2="bg"></feBlend>
+    </filter>
+    <mask id="mask" x="584.6" y="1005.36" width="39.12" height="60.48" maskUnits="userSpaceOnUse">
+      <g class="cls-27">
+        <image width="163" height="252" transform="translate(584.6 1005.36) scale(.24)"></image>
+      </g>
+    </mask>
+    <clipPath id="clippath-1">
+      <rect class="cls-17" x="254.32" y="1037" width="807" height="1210.5"></rect>
+    </clipPath>
+    <filter id="luminosity-noclip-2" x="607.88" y="1132.08" width="28.08" height="39.12" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"></feFlood>
+      <feBlend in="SourceGraphic" in2="bg"></feBlend>
+    </filter>
+    <mask id="mask-1" x="607.88" y="1132.08" width="28.08" height="39.12" maskUnits="userSpaceOnUse">
+      <g class="cls-16">
+        <image width="117" height="163" transform="translate(607.88 1132.08) scale(.24)"></image>
+      </g>
+    </mask>
+    <filter id="luminosity-noclip-3" x="608.84" y="2005.68" width="28.08" height="36.96" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"></feFlood>
+      <feBlend in="SourceGraphic" in2="bg"></feBlend>
+    </filter>
+    <mask id="mask-2" x="608.84" y="2005.68" width="28.08" height="36.96" maskUnits="userSpaceOnUse">
+      <g class="cls-20">
+        <image width="117" height="154" transform="translate(608.84 2005.68) scale(.24)"></image>
+      </g>
+    </mask>
+  </defs>
+  <g id="_图层_1" data-name="图层 1">
+    <rect class="cls-5" x="50.32" y="45" width="1211" height="2616" rx="170.44" ry="170.44"></rect>
+    <g id="IPHONE.psd">
+      <g class="cls-26">
+        <image width="524" height="1080" transform="scale(2.51)"></image>
+      </g>
+    </g>
+    <rect class="cls-3" x="670.32" y="475" width="539" height="489" rx="81.85" ry="81.85"></rect>
+    <rect class="cls-1" x="107.32" y="475" width="539" height="489" rx="81.85" ry="81.85"></rect>
+    <rect class="cls-1" x="107.32" y="1012.88" width="1102" height="47.18" rx="14.5" ry="14.5"></rect>
+    <rect class="cls-10" x="109.32" y="1012.88" width="504.81" height="47.18" rx="14.5" ry="14.5"></rect>
+    <g class="cls-9">
+      <g>
+        <ellipse class="cls-7" cx="604.13" cy="1035.66" rx="17" ry="27.66"></ellipse>
+        <ellipse class="cls-18" cx="604.13" cy="1035.66" rx="17" ry="27.66"></ellipse>
+      </g>
+    </g>
+    <rect class="cls-2" x="90.32" y="1151.59" width="1129" height="866.04" rx="81.85" ry="81.85"></rect>
+    <g class="cls-22">
+      <image width="1024" height="1536" transform="translate(254.32 1037) scale(.79)"></image>
+    </g>
+    <image width="557" height="768" transform="translate(622.32 1289) scale(.79)"></image>
+    <rect class="cls-10" x="185.53" y="1580.7" width="873.49" height="4.09" rx="2.04" ry="2.04" transform="translate(-960.47 2205.02) rotate(-90)"></rect>
+    <g class="cls-4">
+      <g>
+        <ellipse class="cls-7" cx="621.9" cy="1151.66" rx="11.42" ry="17"></ellipse>
+        <ellipse class="cls-18" cx="621.9" cy="1151.66" rx="11.42" ry="17"></ellipse>
+      </g>
+    </g>
+    <g class="cls-19">
+      <g>
+        <ellipse class="cls-7" cx="622.9" cy="2024.17" rx="11.42" ry="15.83"></ellipse>
+        <ellipse class="cls-18" cx="622.9" cy="2024.17" rx="11.42" ry="15.83"></ellipse>
+      </g>
+    </g>
+  </g>
+  <g id="_图层_2" data-name="图层 2">
+    <text class="cls-15" transform="translate(549.42 279.36)"><tspan x="0" y="0">Compare</tspan></text>
+    <text class="cls-15" transform="translate(137.42 541.36)"><tspan x="0" y="0">Row</tspan><tspan class="cls-25" x="101.32" y="0" xml:space="preserve"> A</tspan></text>
+    <text class="cls-15" transform="translate(131.42 2000.36)"><tspan x="0" y="0">Row</tspan><tspan class="cls-25" x="101.32" y="0" xml:space="preserve"> A</tspan></text>
+    <text class="cls-15" transform="translate(701.42 541.36)"><tspan x="0" y="0">Row B</tspan></text>
+    <text class="cls-15" transform="translate(1036.42 2000.36)"><tspan x="0" y="0">Row B</tspan></text>
+    <text class="cls-11" transform="translate(1154.3 279.68)"><tspan x="0" y="0">⋯</tspan></text>
+    <text class="cls-14" transform="translate(107.31 280.61)"><tspan x="0" y="0">&lt; Back</tspan></text>
+    <text class="cls-14" transform="translate(191.32 395.61)"><tspan x="0" y="0">Di</tspan><tspan class="cls-24" x="48" y="0">f</tspan><tspan x="63.12" y="0">ferences between selected snapshots</tspan></text>
+    <text class="cls-14" transform="translate(131.31 616.61)"><tspan x="0" y="0">Day </tspan><tspan class="cls-21" x="101.39" y="0">1</tspan><tspan x="124.52" y="0">1 · 22:10</tspan></text>
+    <text class="cls-14" transform="translate(694.31 609.61)"><tspan x="0" y="0">Day 14 · 09:41</tspan></text>
+    <text class="cls-14" transform="translate(335.31 674.61)"><tspan x="0" y="0">Scared · 0.58</tspan></text>
+    <text class="cls-14" transform="translate(936.32 674.61)"><tspan x="0" y="0">Calm · 0.62</tspan></text>
+    <text class="cls-14" transform="translate(366.31 938.61)"><tspan x="0" y="0">Stage 2 / 5</tspan></text>
+    <text class="cls-14" transform="translate(107.31 1123.61)"><tspan x="0" y="0">Before</tspan></text>
+    <text class="cls-13" transform="translate(180.31 2077.32)"><tspan x="0" y="0">Change focus: lighting · vegetation · path continuity</tspan></text>
+    <text class="cls-12" transform="translate(513.32 1117.32)"><tspan x="0" y="0">Drag to compare</tspan></text>
+    <text class="cls-14" transform="translate(1095.32 1123.61)"><tspan x="0" y="0">After</tspan></text>
+    <text class="cls-14" transform="translate(923.31 938.61)"><tspan x="0" y="0">Stage 2 / 5</tspan></text>
+    <rect class="cls-8" x="92.82" y="2318.5" width="1129" height="265" rx="132.5" ry="132.5"></rect>
+    <text class="cls-23" transform="translate(337.23 2493.58)"><tspan x="0" y="0">Open Timeline</tspan></text>
+    <rect class="cls-10" x="90.82" y="2109.5" width="1129" height="186" rx="93" ry="93"></rect>
+    <text class="cls-6" transform="translate(385.32 2226.34)"><tspan x="0" y="0">Back to</tspan><tspan class="cls-25" x="260.09" y="0"> </tspan><tspan x="277.42" y="0">Archive</tspan></text>
+  </g>
+</svg>

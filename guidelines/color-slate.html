@@ -1,0 +1,31 @@
+<!-- @dsCard group="Colors" viewport="700x168" name="Slate — text & interaction" subtitle="The deep interaction color and text ramp" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  *{margin:0;box-sizing:border-box}
+  body{font-family:var(--font-sans);background:var(--surface-screen);padding:20px 22px;color:var(--text-strong)}
+  .row{display:flex;gap:10px}
+  .sw{flex:1;display:flex;flex-direction:column;gap:6px}
+  .chip{height:64px;border-radius:var(--radius-md);box-shadow:inset 0 0 0 1px rgba(0,0,0,.04)}
+  .name{font-size:11px;font-weight:600;color:var(--text-strong)}
+  .hex{font-size:10.5px;color:var(--text-muted);letter-spacing:.02em}
+  .cap{font-size:10px;color:var(--text-muted);margin-top:2px}
+</style>
+</head>
+<body>
+  <div class="row">
+    <div class="sw"><div class="chip" style="background:var(--slate-900)"></div><div class="name">slate-900</div><div class="hex">#1c2629</div></div>
+    <div class="sw"><div class="chip" style="background:var(--slate-800)"></div><div class="name">slate-800</div><div class="hex">#242f32</div></div>
+    <div class="sw"><div class="chip" style="background:var(--slate-700)"></div><div class="name">slate-700 ·primary</div><div class="hex">#2f3e42</div></div>
+    <div class="sw"><div class="chip" style="background:var(--slate-500)"></div><div class="name">slate-500 ·body</div><div class="hex">#5e6d6f</div></div>
+    <div class="sw"><div class="chip" style="background:var(--slate-400)"></div><div class="name">slate-400</div><div class="hex">#768383</div></div>
+    <div class="sw"><div class="chip" style="background:var(--slate-300)"></div><div class="name">slate-300</div><div class="hex">#9aa6a5</div></div>
+  </div>
+  <div class="cap">Buttons, headings, and primary text use slate-700. Body copy uses slate-500.</div>
+</body>
+</html>

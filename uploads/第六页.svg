@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1314.85 2710">
+  <defs>
+    
+    <clipPath id="clippath">
+      <rect class="cls-3" x="0" y="0" width="1314.85" height="2710"></rect>
+    </clipPath>
+  </defs>
+  <g id="_图层_1" data-name="图层 1">
+    <rect class="cls-2" x="50.32" y="45" width="1211" height="2616" rx="170.44" ry="170.44"></rect>
+    <g id="IPHONE.psd">
+      <g class="cls-10">
+        <image id="_图层_1-2" data-name="图层 1" width="524" height="1080" transform="scale(2.51)"></image>
+      </g>
+    </g>
+    <rect class="cls-6" x="97.32" y="305" width="1129" height="1048" rx="81.85" ry="81.85"></rect>
+    <image width="1024" height="1536" transform="translate(102.32 33) scale(1.14)" xlink:href="../Rosso/Rosso Project 4/渲染后白模.png"></image>
+    <rect class="cls-1" x="97.32" y="1419" width="1129" height="69" rx="14.5" ry="14.5"></rect>
+    <rect class="cls-6" x="97.32" y="1419" width="568.64" height="69" rx="14.5" ry="14.5"></rect>
+    <rect class="cls-7" x="635.32" y="1413" width="34" height="82" rx="10.13" ry="10.13"></rect>
+    <rect class="cls-1" x="97.32" y="1620" width="1129" height="69" rx="14.5" ry="14.5"></rect>
+    <rect class="cls-6" x="97.32" y="1620" width="381" height="69" rx="14.5" ry="14.5"></rect>
+    <rect class="cls-7" x="455.32" y="1614" width="34" height="82" rx="10.13" ry="10.13"></rect>
+    <rect class="cls-1" x="91.32" y="1821" width="1129" height="69" rx="14.5" ry="14.5"></rect>
+    <rect class="cls-6" x="91.32" y="1821" width="763" height="69" rx="14.5" ry="14.5"></rect>
+    <rect class="cls-7" x="843.32" y="1815" width="34" height="82" rx="10.13" ry="10.13"></rect>
+    <rect class="cls-1" x="93.32" y="2022" width="1129" height="69" rx="14.5" ry="14.5"></rect>
+    <rect class="cls-6" x="93.32" y="2022" width="674" height="69" rx="14.5" ry="14.5"></rect>
+    <rect class="cls-7" x="741.32" y="2016" width="34" height="82" rx="10.13" ry="10.13"></rect>
+  </g>
+  <g id="_图层_2" data-name="图层 2">
+    <text class="cls-8" transform="translate(910.52 273.46)"><tspan x="0" y="0">Space</tspan><tspan class="cls-9" x="106.07" y="0"> </tspan><tspan x="114.73" y="0">Adjustment</tspan></text>
+    <text class="cls-8" transform="translate(938.78 1536.46)"><tspan x="0" y="0">Element Density</tspan></text>
+    <text class="cls-8" transform="translate(1037 1738.46)"><tspan x="0" y="0">Color </tspan><tspan class="cls-9" x="103.99" y="0">T</tspan><tspan x="124.65" y="0">one</tspan></text>
+    <text class="cls-8" transform="translate(920.34 1940.46)"><tspan x="0" y="0">Lighting Intensity</tspan></text>
+    <text class="cls-8" transform="translate(1005.8 2142.46)"><tspan x="0" y="0">Layout Style</tspan></text>
+    <rect class="cls-4" x="92.82" y="2318.5" width="1129" height="265" rx="132.5" ry="132.5"></rect>
+    <text class="cls-5" transform="translate(557.87 2493.58)"><tspan x="0" y="0">Next</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,33 @@
+<!-- @dsCard group="Colors" viewport="700x172" name="Gold accent & quiet status" subtitle="Warm gold for progress; desaturated, near-clinical status hues" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  *{margin:0;box-sizing:border-box}
+  body{font-family:var(--font-sans);background:var(--surface-screen);padding:20px 22px;color:var(--text-strong)}
+  .row{display:flex;gap:10px}
+  .sw{flex:1;display:flex;flex-direction:column;gap:6px}
+  .chip{height:60px;border-radius:var(--radius-md);box-shadow:inset 0 0 0 1px rgba(0,0,0,.05)}
+  .name{font-size:11px;font-weight:600}
+  .hex{font-size:10.5px;color:var(--text-muted)}
+  .cap{font-size:10px;color:var(--text-muted);margin-top:12px}
+  .div{width:1px;background:var(--border-hairline);margin:0 4px}
+</style>
+</head>
+<body>
+  <div class="row">
+    <div class="sw"><div class="chip" style="background:var(--gold-600)"></div><div class="name">gold-600</div><div class="hex">#a3854f</div></div>
+    <div class="sw"><div class="chip" style="background:var(--gold-500)"></div><div class="name">gold-500 ·progress</div><div class="hex">#bb9a62</div></div>
+    <div class="sw"><div class="chip" style="background:var(--gold-300)"></div><div class="name">gold-300</div><div class="hex">#d4bd92</div></div>
+    <div class="div"></div>
+    <div class="sw"><div class="chip" style="background:var(--signal-rest)"></div><div class="name">rest</div><div class="hex">#8fa39a</div></div>
+    <div class="sw"><div class="chip" style="background:var(--signal-warn)"></div><div class="name">warn</div><div class="hex">#bb9a62</div></div>
+    <div class="sw"><div class="chip" style="background:var(--signal-alert)"></div><div class="name">alert</div><div class="hex">#a3705f</div></div>
+  </div>
+  <div class="cap">Gold is reserved for stage / progress emphasis only. Status hues stay desaturated — alert is a gentle clay, never alarming red.</div>
+</body>
+</html>

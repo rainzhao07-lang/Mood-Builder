@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1314.85 2710">
+  <defs>
+    
+    <clipPath id="clippath">
+      <rect class="cls-2" width="1314.85" height="2710"></rect>
+    </clipPath>
+  </defs>
+  <g id="_图层_1" data-name="图层 1">
+    <rect class="cls-1" x="50.32" y="45" width="1211" height="2616" rx="170.44" ry="170.44"></rect>
+    <image width="733" height="1537" transform="translate(32.6 43.39) scale(1.7)"></image>
+    <g id="IPHONE.psd">
+      <g class="cls-4">
+        <image width="524" height="1080" transform="scale(2.51)"></image>
+      </g>
+    </g>
+  </g>
+  <g id="_图层_2" data-name="图层 2">
+    <text class="cls-3" transform="translate(107.31 280.61)"><tspan x="0" y="0">&lt; Back</tspan></text>
+  </g>
+</svg>

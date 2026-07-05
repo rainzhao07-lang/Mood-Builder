@@ -1,0 +1,321 @@
+.logicShell {
+  display: grid;
+  grid-template-columns: minmax(280px, 0.78fr) minmax(0, 1.22fr);
+  gap: 18px;
+  margin-top: 18px;
+}
+
+.controlPanel,
+.diagramPanel,
+.outputPanel {
+  background: var(--surface-raised);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+  padding: 18px;
+}
+
+.controlPanel {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.panelTop {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.panelTitle {
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: var(--tracking-display);
+  color: var(--text-strong);
+}
+
+.hint {
+  margin: 0;
+  color: var(--text-body);
+  font-family: var(--font-serif-text);
+  font-style: italic;
+  font-size: var(--text-sm);
+  line-height: 1.45;
+}
+
+.wheelBox {
+  display: grid;
+  place-items: center;
+  border-radius: var(--radius-lg);
+  background: var(--surface-screen);
+  border: 1px solid var(--border-soft);
+  padding: 14px;
+}
+
+.sliderStack {
+  display: grid;
+  gap: 12px;
+}
+
+.sliderRow {
+  display: grid;
+  gap: 6px;
+}
+
+.sliderTop {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  color: var(--text-strong);
+  font-size: var(--text-xs);
+  font-weight: 650;
+}
+
+.sliderTop span:last-child {
+  font-family: var(--font-mono);
+  color: var(--text-accent);
+  font-variant-numeric: tabular-nums;
+}
+
+.range {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 4px;
+  border-radius: var(--radius-pill);
+  background: var(--panel-400);
+  cursor: pointer;
+  outline: none;
+}
+
+.range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border: 2px solid var(--paper-000);
+  border-radius: 50%;
+  background: var(--interactive);
+  box-shadow: var(--ring-dot);
+}
+
+.range::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  border: 2px solid var(--paper-000);
+  border-radius: 50%;
+  background: var(--interactive);
+}
+
+.diagramPanel {
+  display: grid;
+  gap: 16px;
+}
+
+.mixGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.mixItem {
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-md);
+  background: var(--surface-screen);
+  padding: 12px;
+}
+
+.mixMeta {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.mixLabel {
+  font-family: var(--font-display);
+  font-size: 18px;
+  color: var(--text-strong);
+}
+
+.mixPct {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--text-accent);
+  font-variant-numeric: tabular-nums;
+}
+
+.barTrack {
+  overflow: hidden;
+  height: 9px;
+  border-radius: var(--radius-pill);
+  background: var(--panel-400);
+}
+
+.barFill {
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, var(--band-500), var(--interactive));
+  transition: width var(--dur-slow) var(--ease-settle);
+}
+
+.chain {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(120px, 1fr));
+  gap: 10px;
+  padding: 12px;
+  border-radius: var(--radius-lg);
+  background:
+    linear-gradient(90deg, transparent 0, transparent 9%, var(--line-200) 9%, var(--line-200) 91%, transparent 91%),
+    var(--surface-screen);
+  border: 1px solid var(--border-soft);
+}
+
+.chainNode {
+  position: relative;
+  z-index: 1;
+  min-height: 96px;
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-md);
+  background: var(--paper-000);
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform var(--dur-base) var(--ease-settle), border-color var(--dur-base), background var(--dur-base);
+}
+
+.chainNodeActive {
+  transform: translateY(-3px);
+  border-color: var(--interactive);
+  background: color-mix(in oklab, var(--surface-card) 62%, var(--paper-000));
+}
+
+.nodeIndex {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--text-accent);
+}
+
+.nodeTitle {
+  font-size: var(--text-sm);
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--text-strong);
+}
+
+.domainGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.domainCard {
+  min-height: 112px;
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-md);
+  background: var(--surface-screen);
+  padding: 12px;
+  transition: transform var(--dur-base) var(--ease-settle), background var(--dur-base);
+}
+
+.domainCard:hover {
+  transform: translateY(-2px);
+  background: color-mix(in oklab, var(--surface-card) 52%, var(--paper-000));
+}
+
+.domainKey {
+  font-size: var(--text-2xs);
+  letter-spacing: var(--tracking-caps);
+  text-transform: uppercase;
+  color: var(--text-body);
+  font-weight: 750;
+}
+
+.domainValue {
+  margin-top: 10px;
+  font-family: var(--font-display);
+  font-size: 20px;
+  line-height: 1.12;
+  color: var(--text-strong);
+}
+
+.outputPanel {
+  display: grid;
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.outputGrid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.metric {
+  border-radius: var(--radius-md);
+  background: var(--surface-screen);
+  border: 1px solid var(--border-soft);
+  padding: 12px;
+}
+
+.metric b {
+  display: block;
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: 24px;
+  color: var(--text-strong);
+}
+
+.metric span {
+  display: block;
+  margin-top: 4px;
+  color: var(--text-body);
+  font-size: var(--text-2xs);
+  font-weight: 700;
+  letter-spacing: var(--tracking-caps);
+  text-transform: uppercase;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .chainNodeActive::after {
+    content: "";
+    position: absolute;
+    inset: -1px;
+    border-radius: inherit;
+    border: 1px solid var(--band-500);
+    opacity: 0;
+    animation: logicPulse 1.8s var(--ease-settle) infinite;
+  }
+}
+
+@keyframes logicPulse {
+  0% { opacity: .65; transform: scale(1); }
+  100% { opacity: 0; transform: scale(1.08); }
+}
+
+@media (max-width: 1080px) {
+  .logicShell {
+    grid-template-columns: 1fr;
+  }
+
+  .chain,
+  .domainGrid,
+  .outputGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .mixGrid,
+  .chain,
+  .domainGrid,
+  .outputGrid {
+    grid-template-columns: 1fr;
+  }
+}

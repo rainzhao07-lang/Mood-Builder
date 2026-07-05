@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1314.85 2710">
+  <defs>
+    
+    <clipPath id="clippath">
+      <rect class="cls-13" width="1314.85" height="2710"></rect>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-13" x="90.32" y="532" width="541" height="811.5"></rect>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="cls-13" x="710.32" y="549" width="541" height="811.5"></rect>
+    </clipPath>
+  </defs>
+  <g id="_图层_1" data-name="图层 1">
+    <rect class="cls-7" x="50.32" y="45" width="1211" height="2616" rx="170.44" ry="170.44"></rect>
+    <g id="IPHONE.psd">
+      <g class="cls-20">
+        <image width="524" height="1080" transform="scale(2.51)"></image>
+      </g>
+    </g>
+    <rect class="cls-2" x="929.82" y="358.5" width="289" height="62" rx="31" ry="31"></rect>
+    <rect class="cls-1" x="588.99" y="517.5" width="298" height="62" rx="31" ry="31"></rect>
+    <rect class="cls-1" x="256.66" y="518" width="298" height="62" rx="31" ry="31"></rect>
+    <rect class="cls-8" x="106.32" y="523" width="115" height="62" rx="31" ry="31"></rect>
+    <rect class="cls-1" x="921.32" y="518" width="298" height="62" rx="31" ry="31"></rect>
+    <rect class="cls-1" x="91.32" y="639" width="539" height="864" rx="81.85" ry="81.85"></rect>
+    <rect class="cls-1" x="685.32" y="632" width="539" height="871" rx="81.85" ry="81.85"></rect>
+    <g class="cls-15">
+      <image width="1024" height="1536" transform="translate(90.32 532) scale(.53)"></image>
+    </g>
+    <g class="cls-17">
+      <image width="1024" height="1536" transform="translate(710.32 549) scale(.53)"></image>
+    </g>
+    <rect class="cls-18" x="111.32" y="1156.24" width="495" height="327.79" rx="68.27" ry="68.27"></rect>
+    <rect class="cls-18" x="707.32" y="1154.24" width="495" height="327.79" rx="68.27" ry="68.27"></rect>
+    <rect class="cls-4" x="145.32" y="1402" width="420" height="62" rx="31" ry="31"></rect>
+    <rect class="cls-4" x="744.32" y="1402" width="420" height="62" rx="31" ry="31"></rect>
+    <rect class="cls-3" x="92.82" y="2318.5" width="1129" height="265" rx="132.5" ry="132.5"></rect>
+    <text class="cls-16" transform="translate(285.28 2493.58)"><tspan x="0" y="0">Compare selected</tspan></text>
+  </g>
+  <g id="_图层_2" data-name="图层 2">
+    <text class="cls-11" transform="translate(107.31 280.61)"><tspan x="0" y="0">&lt; Back</tspan></text>
+    <text class="cls-11" transform="translate(107.31 406.61)"><tspan x="0" y="0">Last 14 days · 14 snapshots </tspan></text>
+    <text class="cls-6" transform="translate(129.31 571.61)"><tspan x="0" y="0">All</tspan></text>
+    <text class="cls-11" transform="translate(304.31 566.61)"><tspan x="0" y="0">By Stage</tspan></text>
+    <text class="cls-10" transform="translate(130.31 696.32)"><tspan x="0" y="0">Day 14</tspan></text>
+    <text class="cls-5" transform="translate(136.32 1205.17)"><tspan x="0" y="0">Stage 2 / 5</tspan></text>
+    <text class="cls-5" transform="translate(732.32 1205.17)"><tspan x="0" y="0">Stage 2 / 5</tspan></text>
+    <text class="cls-5" transform="translate(136.32 1247.17)"><tspan x="0" y="0">Open layout · softer light</tspan></text>
+    <text class="cls-5" transform="translate(732.32 1242.17)"><tspan x="0" y="0">Narrow path · higher contrast</tspan></text>
+    <text class="cls-5" transform="translate(137.32 1319.17)"><tspan x="0" y="0">Lighting +8%</tspan></text>
+    <text class="cls-5" transform="translate(730.32 1319.17)"><tspan x="0" y="0">Lighting −8%</tspan></text>
+    <text class="cls-5" transform="translate(729.32 1356.17)"><tspan x="0" y="0">Layout more fragmented</tspan></text>
+    <text class="cls-5" transform="translate(133.32 1360.17)"><tspan x="0" y="0">Element density +12%</tspan></text>
+    <text class="cls-10" transform="translate(168.32 1446.32)"><tspan class="cls-19" x="0" y="0">T</tspan><tspan x="20.65" y="0">ap to open snapshot</tspan></text>
+    <text class="cls-10" transform="translate(767.32 1446.32)"><tspan class="cls-19" x="0" y="0">T</tspan><tspan x="20.65" y="0">ap to open snapshot</tspan></text>
+    <text class="cls-10" transform="translate(408.32 696.32)"><tspan x="0" y="0">Calm · 0.62</tspan></text>
+    <text class="cls-10" transform="translate(719.31 696.32)"><tspan x="0" y="0">Day </tspan><tspan class="cls-14" x="76.04" y="0">1</tspan><tspan x="93.39" y="0">1 </tspan></text>
+    <text class="cls-10" transform="translate(965.32 696.32)"><tspan x="0" y="0">Scared · 0.58</tspan></text>
+    <text class="cls-11" transform="translate(604.31 566.61)"><tspan x="0" y="0">By Emotion</tspan></text>
+    <text class="cls-11" transform="translate(949.3 566.61)"><tspan x="0" y="0">By Change</tspan></text>
+    <text class="cls-11" transform="translate(955.31 407.61)"><tspan x="0" y="0">Stage 2 / 5 </tspan></text>
+    <text class="cls-9" transform="translate(1154.3 279.68)"><tspan x="0" y="0">⋯</tspan></text>
+    <text class="cls-12" transform="translate(567.42 279.36)"><tspan x="0" y="0">Archive</tspan></text>
+  </g>
+</svg>

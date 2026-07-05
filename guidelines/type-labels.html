@@ -1,0 +1,35 @@
+<!-- @dsCard group="Type" viewport="700x180" name="Eyebrows, labels & numerics" subtitle="Uppercase eyebrows, micro labels, serif metric values" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&family=Hanken+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  *{margin:0;box-sizing:border-box}
+  body{font-family:var(--font-sans);background:var(--surface-screen);padding:22px 24px;color:var(--text-strong);display:flex;gap:34px;align-items:center}
+  .col{display:flex;flex-direction:column;gap:10px}
+  .eyebrow{font-size:var(--text-2xs);letter-spacing:var(--tracking-eyebrow);text-transform:uppercase;color:var(--text-accent);font-weight:700}
+  .label{font-size:var(--text-xs);color:var(--text-body);font-weight:600}
+  .caps{font-size:var(--text-3xs);letter-spacing:var(--tracking-caps);text-transform:uppercase;color:var(--text-muted);font-weight:600}
+  .num{font-family:var(--font-display);font-size:var(--numeric-lg);font-weight:500}
+  .num small{font-family:var(--font-sans);font-size:11px;color:var(--text-accent);font-weight:600}
+  .sep{width:1px;align-self:stretch;background:var(--border-hairline)}
+  .tag{font-size:var(--text-3xs);color:var(--text-muted);margin-top:4px;font-weight:500}
+</style>
+</head>
+<body>
+  <div class="col">
+    <div class="eyebrow">Self-report</div>
+    <div class="label">Heart-rate variability</div>
+    <div class="caps">Stage 2 / 5 · Phase</div>
+  </div>
+  <div class="sep"></div>
+  <div class="col">
+    <div class="num">72<small> ms</small></div>
+    <div class="num">Calm <small>0.62</small></div>
+    <div class="tag">Fraunces metrics · Hanken units</div>
+  </div>
+</body>
+</html>
