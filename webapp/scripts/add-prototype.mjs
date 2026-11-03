@@ -16,8 +16,9 @@ if (!existsSync(join(webapp, "out"))) {
   process.exit(1);
 }
 if (!existsSync(src)) {
-  console.warn("add-prototype: prototype HTML not found, skipping:", src);
-  process.exit(0);
+  // README 和 demo 都链接了 /prototype/,缺文件就让构建失败,不要悄悄 404
+  console.error("add-prototype: prototype HTML not found:", src);
+  process.exit(1);
 }
 
 mkdirSync(join(outDir, "assets", "renders"), { recursive: true });

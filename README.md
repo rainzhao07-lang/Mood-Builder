@@ -23,7 +23,7 @@ The voice is calm and observational, closer to a field notebook than a fitness a
 | | What to look at |
 | --- | --- |
 | [**The app**](https://mood-builder-ziyuzhao.netlify.app/app/) | The core loop: set the wheel and signals, watch the 3D space recompose live, save a snapshot (kept in your browser only). Drag to rotate, or switch to *Walk*. |
-| [**Mobile prototype**](https://mood-builder-ziyuzhao.netlify.app/prototype/) | The full 10-screen flow: observe, record, calibrate, generate, adjust, temporal record, insights, compare, immersive. Use ← → or the dots. |
+| [**Mobile prototype**](https://mood-builder-ziyuzhao.netlify.app/prototype/) | The full 10-screen flow: observe, home, record on the wheel, calibrate, generate, adjust, temporal record, insights, compare, immersive. Use ← → or the dots. |
 | [**Observation Deck**](https://mood-builder-ziyuzhao.netlify.app/deck/) | Fourteen days of engine output stacked as platforms, with an altitude slider and an affective trace. |
 | [**Translation database**](https://mood-builder-ziyuzhao.netlify.app/translation/) | How each emotion family maps to material, roof form, light, weather and sound. |
 | [**Research**](https://mood-builder-ziyuzhao.netlify.app/research/) | Why the project exists: the global mental-health burden, as an interactive map. |
@@ -65,7 +65,7 @@ Objective input (body signals)    ─┘   normalise · weight &     parameters 
 | Path | What |
 | --- | --- |
 | [`webapp/`](webapp/) | The web app: Next.js 16, React 19, TypeScript, Three.js via react-three-fiber. Exports as a fully static site. |
-| [`Mood Builder - Prototype.html`](Mood%20Builder%20-%20Prototype.html) | The 10-screen mobile prototype as one self-contained file (source in [`ui_kits/mood-builder-app/`](ui_kits/mood-builder-app/)). Open it from the repo root. |
+| [`Mood Builder - Prototype.html`](Mood%20Builder%20-%20Prototype.html) | The 10-screen mobile prototype bundled into one HTML file (source in [`ui_kits/mood-builder-app/`](ui_kits/mood-builder-app/)). It loads its renders from `assets/renders/`, so open it from the repo root. |
 | [`tokens/`](tokens/), [`components/`](components/), [`guidelines/`](guidelines/), [`styles.css`](styles.css) | The design system. Start with [`DESIGN-SYSTEM.md`](DESIGN-SYSTEM.md). |
 | [`assets/`](assets/) | Self-hosted fonts and the render boards. |
 | [`process/`](process/) | Working notes: AI handoffs, Figma build notes, the render-asset spec. |
@@ -86,9 +86,9 @@ The live demo deploys from this repo on Netlify using [`netlify.toml`](netlify.t
 ## Status
 
 - **v1 (this repo):** the concept, the design system, the 10-screen prototype and a working web build of the core record-to-space loop.
-- **Known limits:** body signals are simulated with sliders; snapshots live in one browser's local storage; the app composes from three placeholder renders until the layered render library exists ([spec](process/RENDER-ASSET-SPEC.md)); the research map uses representative values within the published range, not an exact copy of the dataset.
+- **Known limits:** body signals are simulated with sliders; snapshots live in one browser's local storage; the Deck tab shows one of three placeholder renders per day until the layered render library exists ([spec](process/RENDER-ASSET-SPEC.md)); the research map is illustrative: about 60 countries carry hand-entered values within the published range, and the rest show placeholder values near the global mean, generated for layout rather than taken from the dataset.
 - **Next:** a 2.0 redesign of the core flow is in progress. This repo will be updated when it lands.
 
 ## Credits
 
-Research data: IHME, Global Burden of Disease (2021), via [Our World in Data](https://ourworldindata.org/grapher/share-with-mental-and-substance-disorders). Map geometry: [world-atlas](https://github.com/topojson/world-atlas) (Natural Earth). Typefaces: Fraunces, Newsreader, Hanken Grotesk, Geist (SIL Open Font License).
+Research indicator and framing: IHME, Global Burden of Disease (2021), via [Our World in Data](https://ourworldindata.org/grapher/share-with-mental-and-substance-disorders) (values on the map are illustrative, see above). Map geometry: [world-atlas](https://github.com/topojson/world-atlas) (Natural Earth). Typefaces: Fraunces, Newsreader, Hanken Grotesk, Geist (SIL Open Font License).

@@ -20,5 +20,5 @@ briefs and reports.
 | `CONTEXT-HANDOFF-20260630.md` | Context handoff so a fresh session can continue |
 | `HANDOFF-CLAUDE-20260702.md` | Handoff after the switch to a real mobile app (`/app`): decisions, corrections and roadmap |
 | `FIGMA-BUILD-GUIDE.md` | How to rebuild the 14 mobile screens in Figma from the tokens |
-| `FIGMA-REVIEW-NOTES.md` | Notes from a Figma correction pass (that Figma file has since been replaced) |
+| `FIGMA-REVIEW-NOTES.md` | Notes from a Figma correction pass (that Figma file is no longer used) |
 | `RENDER-ASSET-SPEC.md` | Spec for the layered render library the app will compose from (`webapp/lib/app/asset-manifest.ts`) |
