@@ -12,7 +12,8 @@ const TABS = [
 ] as const;
 
 export default function TabBar() {
-  const pathname = usePathname();
+  // 静态导出开了 trailingSlash,pathname 会是 "/app/",先去掉结尾斜杠再比较
+  const pathname = usePathname().replace(/\/+$/, "") || "/";
   return (
     <nav className={s.tabbar} aria-label="Primary">
       {TABS.map((t) => {

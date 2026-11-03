@@ -1,0 +1,19 @@
+# Netlify: Mood Builder live demo (static export of webapp/)
+# Import this repo on Netlify and every setting below is picked up automatically.
+
+[build]
+  base = "webapp"
+  command = "npm run build:static"
+  publish = "out"
+
+[build.environment]
+  NODE_VERSION = "22"
+  # Fully static export: the Next.js runtime adapter is not needed.
+  NETLIFY_NEXT_PLUGIN_SKIP = "true"
+  NEXT_TELEMETRY_DISABLED = "1"
+
+# Hashed build assets never change, so they can be cached for a year.
+[[headers]]
+  for = "/_next/static/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"

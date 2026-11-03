@@ -3,22 +3,23 @@
    引擎只决定"用哪些层、怎么叠";画面全用渲染图。
    真分层图库(public/renders/library/)就位前,用现有三张全幅图占位。
    图库到位后:把 LIBRARY_READY 改成 true,逻辑不用动。
-   规范见根目录 RENDER-ASSET-SPEC.md。
+   规范见 process/RENDER-ASSET-SPEC.md。
    ============================================================ */
 
 import type { EmotionKey, WeatherMode } from "@/lib/engine/types";
+import { withBase } from "@/lib/base-path";
 
 /** 真分层图库是否已就位(图库导出后改 true,逻辑不动) */
 export const LIBRARY_READY: boolean = false;
 
 /** 占位:现有三张全幅等距渲染图,按情绪气质映射 */
 const ISO_PLACEHOLDER: Record<EmotionKey, string> = {
-  joyful: "/renders/space-iso-lush.png",
-  calm: "/renders/space-iso-lush.png",
-  confident: "/renders/space-iso-detail.png",
-  mad: "/renders/space-iso-detail.png",
-  sad: "/renders/space-iso-open.png",
-  scared: "/renders/space-iso-open.png",
+  joyful: withBase("/renders/space-iso-lush.png"),
+  calm: withBase("/renders/space-iso-lush.png"),
+  confident: withBase("/renders/space-iso-detail.png"),
+  mad: withBase("/renders/space-iso-detail.png"),
+  sad: withBase("/renders/space-iso-open.png"),
+  scared: withBase("/renders/space-iso-open.png"),
 };
 
 export type Intensity = 1 | 2 | 3;
@@ -65,5 +66,5 @@ export function composeLayers(input: ComposeInput): string[] {
     `/renders/library/veg-${veg}.png`,
     `/renders/library/people-${peopleDensity(input.emotion)}.png`,
     `/renders/library/weather-${input.weather}.png`,
-  ];
+  ].map(withBase);
 }
