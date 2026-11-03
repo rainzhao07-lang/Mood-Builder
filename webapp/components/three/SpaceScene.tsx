@@ -17,7 +17,6 @@ import {
   OrbitControls,
   RoundedBox,
   Sky,
-  SoftShadows,
 } from "@react-three/drei";
 import { useMemo, useRef } from "react";
 import * as THREE from "three";
@@ -1433,7 +1432,8 @@ export function SceneContents({ space, weather, quality = "full" }: { space: Com
       <Precipitation mode={weather} />
       {weather === "storm" && <Lightning />}
 
-      <SoftShadows size={quality === "full" ? 24 : 16} samples={quality === "full" ? 12 : 6} focus={0.85} />
+      {/* drei <SoftShadows> 已移除:它改写的 PCSS 阴影着色器调用 unpackRGBAToDepth(texture2D(...)),
+          与 three r185 的阴影贴图不兼容,片元着色器编译失败,投影整片消失。用 PCFShadowMap 自带的软阴影。 */}
       <StudioEnv warmth={params.lightWarmth} />
 
       <hemisphereLight args={["#dff0ff", recipe.grass, 0.55 * skyDim * recipe.ambientBoost]} />

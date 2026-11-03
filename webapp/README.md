@@ -43,28 +43,38 @@ The app is intentionally **client-only**: check-ins persist in `localStorage`
 `/api/snapshots` in-memory demo route was removed (nothing referenced it) so the
 whole app can be exported as a fully static site.
 
-## Static export (portfolio embed)
+## Static export
 
-`npm run build:portfolio` builds a static export to `out/` with
-`basePath: /moodbuilder` (config in `next.config.ts`, gated by `MB_STATIC=1`).
-Copy `out/` to the portfolio site's `moodbuilder/` folder — it is embedded at
-https://rainzhao01.netlify.app/ inside the Mood Builder project detail (iframe +
-"open full app" link). Regular `npm run dev` / `npm run check` are unaffected.
+Two static builds, both written to `out/` (config in `next.config.ts`, gated by `MB_STATIC=1`):
+
+| Script | Served from | Use |
+| --- | --- | --- |
+| `npm run build:static` | site root `/` | The standalone live demo on Netlify (`netlify.toml` at the repo root runs this). |
+| `npm run build:portfolio` | `/moodbuilder/` | Copy `out/` into the portfolio site's `moodbuilder/` folder. |
+
+Both also copy the single-file mobile prototype (`../Mood Builder - Prototype.html`) to
+`out/prototype/` via `scripts/add-prototype.mjs`. Regular `npm run dev` / `npm run check`
+are unaffected.
+
+**Sub-path rule:** `next/link` adds the base path automatically, but `next/image` string
+`src`, `fetch()` and plain `<img>` do not. Any file under `public/` must be referenced through
+`withBase()` from `lib/base-path.ts`, or it will 404 under `/moodbuilder/`. Fonts live in
+`app/fonts/` and are imported relatively from `globals.css`, so Next bundles them and they
+work under any base path.
 
 ## Run
 
-Node is installed portably on this machine; put it on PATH first:
+Requires Node.js 20.9+ (Netlify builds with Node 22).
 
-```powershell
-$env:Path="C:\Users\Rain\AppData\Local\Programs\nodejs;$env:Path"
+```bash
 cd webapp
 npm install
-npm run dev      # http://localhost:3000  (or use ..\run-dev.cmd from the repo root)
+npm run dev      # http://localhost:3000
 ```
 
 ## Test / build
 
-```powershell
+```bash
 npm run check    # tsc --noEmit  +  next build  (the ground-truth gate)
 npm run typecheck
 npm run build
@@ -74,7 +84,7 @@ npm run build
 
 - Next.js (App Router) + React + TypeScript
 - `@react-three/fiber` + `@react-three/drei` (Three.js) for the generative 3D space
-- Design tokens ported faithfully from the Mood Builder design system into `app/globals.css`; fonts self-hosted under `public/fonts`
+- Design tokens ported faithfully from the Mood Builder design system into `app/globals.css`; fonts self-hosted under `app/fonts`
 
 ## Network: fully self-hosted (works offline / in mainland China)
 
@@ -83,7 +93,7 @@ including mainland China without a proxy. Verified: a grep of the production `.n
 output finds zero references to `fonts.googleapis`, `gstatic`, `unpkg`, `jsdelivr`,
 `cdnjs`, `polyfill.io`, analytics, or `raw.githack`.
 
-- Fonts are self-hosted under `public/fonts/*.woff2` (no Google Fonts, no `next/font`).
+- Fonts are self-hosted under `app/fonts/*.woff2` (no Google Fonts, no `next/font`).
 - The world map topojson is self-hosted at `public/world-110m.json` (no unpkg at runtime).
 - The only external reference is one **clickable** `<a href="ourworldindata.org…">`
   attribution link — it loads nothing until clicked, so it never blocks the page.

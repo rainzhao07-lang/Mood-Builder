@@ -3,13 +3,14 @@
 import { useState } from "react";
 import Image from "next/image";
 import type { DailyPlatform, EmotionKey, SpaceParameters } from "@/lib/engine/types";
+import { withBase } from "@/lib/base-path";
 import s from "./deck.module.css";
 
 /* 真实等距渲染图(public/renders),按情绪/参数映射到三种空间气质 */
 const ISO = {
-  open: "/renders/space-iso-open.png",
-  lush: "/renders/space-iso-lush.png",
-  detail: "/renders/space-iso-detail.png",
+  open: withBase("/renders/space-iso-open.png"),
+  lush: withBase("/renders/space-iso-lush.png"),
+  detail: withBase("/renders/space-iso-detail.png"),
 } as const;
 
 type IsoKind = keyof typeof ISO;
@@ -160,7 +161,7 @@ export default function DeckView({ platforms }: { platforms: DailyPlatform[] }) 
             <div className={s.immersiveFrame}>
               <Image
                 className={s.immersiveImg}
-                src="/renders/immersive-ruins.png"
+                src={withBase("/renders/immersive-ruins.png")}
                 width={384}
                 height={762}
                 alt="First-person immersive view inside the generated space"

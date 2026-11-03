@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { withBase } from "@/lib/base-path";
 import styles from "../boards.module.css";
 import s from "./deck.module.css";
 import Reveal from "@/components/Reveal";
@@ -37,9 +38,9 @@ export default function DeckPage() {
         <div className={s.referenceFrame}>
           <Image
             className={s.referenceImg}
-            src="/renders/tablet-observation-deck.png"
-            width={4961}
-            height={3508}
+            src={withBase("/renders/tablet-observation-deck.jpg")}
+            width={2400}
+            height={1697}
             alt="Rendered observation deck: stacked daily platforms with annotations"
             sizes="(max-width: 900px) 100vw, 1100px"
           />

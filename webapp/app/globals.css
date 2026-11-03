@@ -4,35 +4,35 @@
    Quiet, near-clinical healing palette; self-hosted fonts.
    ============================================================ */
 
-/* ---------- Self-hosted web fonts (served from /public/fonts) ---------- */
+/* ---------- Self-hosted web fonts (app/fonts, bundled by Next so they work under any basePath) ---------- */
 @font-face { font-family:"Fraunces"; font-style:normal; font-weight:100 900; font-display:swap;
-  src:url("/fonts/fraunces-variable-normal.woff2") format("woff2"); }
+  src:url("./fonts/fraunces-variable-normal.woff2") format("woff2"); }
 @font-face { font-family:"Fraunces"; font-style:italic; font-weight:100 900; font-display:swap;
-  src:url("/fonts/fraunces-variable-italic.woff2") format("woff2"); }
+  src:url("./fonts/fraunces-variable-italic.woff2") format("woff2"); }
 @font-face { font-family:"Newsreader"; font-style:normal; font-weight:400; font-display:swap;
-  src:url("/fonts/newsreader-400.woff2") format("woff2"); }
+  src:url("./fonts/newsreader-400.woff2") format("woff2"); }
 @font-face { font-family:"Newsreader"; font-style:italic; font-weight:400; font-display:swap;
-  src:url("/fonts/newsreader-400-italic.woff2") format("woff2"); }
+  src:url("./fonts/newsreader-400-italic.woff2") format("woff2"); }
 @font-face { font-family:"Newsreader"; font-style:normal; font-weight:500; font-display:swap;
-  src:url("/fonts/newsreader-500.woff2") format("woff2"); }
+  src:url("./fonts/newsreader-500.woff2") format("woff2"); }
 @font-face { font-family:"Newsreader"; font-style:normal; font-weight:600; font-display:swap;
-  src:url("/fonts/newsreader-600.woff2") format("woff2"); }
+  src:url("./fonts/newsreader-600.woff2") format("woff2"); }
 @font-face { font-family:"Hanken Grotesk"; font-style:normal; font-weight:400; font-display:swap;
-  src:url("/fonts/hanken-grotesk-400.woff2") format("woff2"); }
+  src:url("./fonts/hanken-grotesk-400.woff2") format("woff2"); }
 @font-face { font-family:"Hanken Grotesk"; font-style:normal; font-weight:500; font-display:swap;
-  src:url("/fonts/hanken-grotesk-500.woff2") format("woff2"); }
+  src:url("./fonts/hanken-grotesk-500.woff2") format("woff2"); }
 @font-face { font-family:"Hanken Grotesk"; font-style:normal; font-weight:600; font-display:swap;
-  src:url("/fonts/hanken-grotesk-600.woff2") format("woff2"); }
+  src:url("./fonts/hanken-grotesk-600.woff2") format("woff2"); }
 @font-face { font-family:"Hanken Grotesk"; font-style:normal; font-weight:700; font-display:swap;
-  src:url("/fonts/hanken-grotesk-700.woff2") format("woff2"); }
+  src:url("./fonts/hanken-grotesk-700.woff2") format("woff2"); }
 @font-face { font-family:"Geist"; font-style:normal; font-weight:400; font-display:swap;
-  src:url("/fonts/geist-sans-400.woff2") format("woff2"); }
+  src:url("./fonts/geist-sans-400.woff2") format("woff2"); }
 @font-face { font-family:"Geist"; font-style:normal; font-weight:500; font-display:swap;
-  src:url("/fonts/geist-sans-500.woff2") format("woff2"); }
+  src:url("./fonts/geist-sans-500.woff2") format("woff2"); }
 @font-face { font-family:"Geist Mono"; font-style:normal; font-weight:400; font-display:swap;
-  src:url("/fonts/geist-mono-400.woff2") format("woff2"); }
+  src:url("./fonts/geist-mono-400.woff2") format("woff2"); }
 @font-face { font-family:"Geist Mono"; font-style:normal; font-weight:500; font-display:swap;
-  src:url("/fonts/geist-mono-500.woff2") format("woff2"); }
+  src:url("./fonts/geist-mono-500.woff2") format("woff2"); }
 
 :root {
   /* — teal ramp (text / interaction);仅此色卡 + 黑(深 teal)/白 — */

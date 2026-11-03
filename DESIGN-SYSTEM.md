@@ -25,21 +25,23 @@ generous rounding, slow settling motion. Headlines are the editorial serif
 
 ## Sources this system was built from
 
-- **`新建文件夹 (6)/index2.html`** — the structural base: a 10‑screen clickable
-  mobile prototype (Observe → Record → Subjective → Calibrate → Generate →
-  Adjust → Temporal → Insights → Compare → Immersive). The token CSS and the
-  screen flow are derived from this file.
+- **An earlier 10‑screen clickable mobile prototype** — the structural base
+  (Observe → Record → Subjective → Calibrate → Generate → Adjust → Temporal →
+  Insights → Compare → Immersive). The token CSS and the screen flow are
+  derived from it. The rebuilt flow lives in `ui_kits/mood-builder-app/` and is
+  bundled as a single file in `Mood Builder - Prototype.html`.
 - **`uploads/P45.png`** — *"Affective Spatial Evolution Framework"* board: all
   ten phone screens rendered in the target visual style, plus the system flow
   diagram and the first‑person immersive interior photo. The isometric "space"
   renders and the immersive photo in this system were **cropped from this
   board** (see `assets/renders/`).
-- **`uploads/P46.png`** — the tablet *"Observation Deck"* immersive view: an
+- **P46 board** — the tablet *"Observation Deck"* immersive view: an
   exploded stack of daily platforms with mood annotations, an altitude slider
-  and an affective‑trace chart. Copied in as `assets/renders/tablet-observation-deck.png`.
+  and an affective‑trace chart. Kept as `assets/renders/tablet-observation-deck.jpg`
+  (full 4961 × 3508 resolution, re‑encoded from the original 17 MB PNG).
 
 Both reference boards are preserved at full resolution in
-`assets/renders/framework-board.png` and `assets/renders/tablet-observation-deck.png`.
+`assets/renders/framework-board.png` and `assets/renders/tablet-observation-deck.jpg`.
 
 ---
 
@@ -159,7 +161,7 @@ the renders instead of an icon set. What it does use:
 Real visual assets live in `assets/renders/`:
 `space-iso-open.png`, `space-iso-lush.png`, `space-iso-detail.png` (isometric
 spaces), `immersive-ruins.png` (first‑person interior),
-`tablet-observation-deck.png` and `framework-board.png` (the source boards).
+`tablet-observation-deck.jpg` and `framework-board.png` (the source boards).
 
 ---
 

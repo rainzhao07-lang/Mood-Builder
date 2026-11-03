@@ -10,6 +10,7 @@
 import { useEffect, useState } from "react";
 import { geoNaturalEarth1, geoPath } from "d3-geo";
 import { feature } from "topojson-client";
+import { withBase } from "@/lib/base-path";
 import styles from "./research.module.css";
 import { shareFor, binColor, BINS } from "./worldData";
 
@@ -25,7 +26,7 @@ export default function WorldChoropleth() {
 
   useEffect(() => {
     let alive = true;
-    fetch("/world-110m.json")
+    fetch(withBase("/world-110m.json"))
       .then((r) => r.json())
       // d3/topojson 的几何边界类型繁琐,这里在边界处用 any 收口
       .then((topo: { objects: { countries: unknown } }) => {
